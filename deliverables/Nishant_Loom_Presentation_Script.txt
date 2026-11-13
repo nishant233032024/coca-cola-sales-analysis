@@ -1,0 +1,57 @@
+LOOM PRESENTATION SCRIPT - Nishant
+
+Spoken word count: 907 words
+
+[00:00-00:40]  ON SCREEN: 00_ReadMe, then 12_Dashboard title bar
+Hello, I'm Nishant. In this project I analysed the supplied Coca-Cola sales dataset to see where recorded sales and operating profit are strongest, where margins need attention, and which actions the evidence supports. The question is how Coca-Cola can optimise sales and operating profitability across U.S. retailers, regions, products and time. Every number here comes from the 3,888 records in your workbook, not from outside figures. I will cover the data, the cleaning, the headline numbers, retailer and regional differences, what time and brands show, and the actions those findings support.
+
+[00:40-01:15]  ON SCREEN: 01_Raw_Data, then 03_Data_Dictionary
+The workbook has one raw sheet. Headers sit on row five and records run to row 3,893, so exactly 3,888 records across twelve fields: retailer, date, region, state, city, brand, price per unit, units sold, sales, operating profit and margin. It covers one year, 2021, and each month holds exactly 324 records - 54 cities times six brands. So a row is a retailer-city-brand-month observation, not an order. Four retailers, five regions, 50 states and 54 cities are covered, and six brands: Coca-Cola, Diet Coke, Sprite, Fanta, Powerade and Dasani Water. This is an educational dataset, not audited company reporting.
+
+[01:15-02:00]  ON SCREEN: 04_Data_Quality, then 02_Clean_Data
+I kept the original sheet untouched and built a separate table, so every figure traces back to a source row. The checks came back clean: no negatives, no duplicates, no missing dates, and no partial month. Price times units equals sales in all 3,888 rows, and profit divided by sales equals the supplied margin wherever sales exist. Two Omaha rows have zero sales but still carry a 40 percent margin; I kept and flagged them, and they change no total. I also excluded stray unlabelled cells outside the record block. Currency is not documented anywhere in the file, so every monetary figure is labelled US dollars on that assumption, and the file gives operating profit only, so I never say net profit.
+
+[02:00-02:50]  ON SCREEN: 05_KPI_Summary
+Total sales are $8,684,028 across 17.15 million units, giving $3,173,632 of operating profit. Overall margin is 36.5%, and I calculated that as total operating profit divided by total sales, not by averaging the percentages in each row. The simple average would have said 36.3% - about 0.2 points away - because a small city would count as much as New York. Realised sales per unit are fifty-one cents and operating profit per unit is eighteen and a half cents. The unit-weighted listed price comes out at the same fifty-one cents, so listed and realised price agree here.
+
+[02:50-04:05]  ON SCREEN: 12_Dashboard: KPI cards, retailer bar, region bar, one slicer clicked
+Sodapop is the largest account at 50.7% of sales and 51.9% of profit, with a 37.4% margin. FizzySip is the opposite: 29.8% of sales but only 26.3% of profit, because its margin is 32.3%. BevCo is smallest of the three big accounts at 14.9% of sales yet earns the highest margin, 42.0%. Geographically the West is largest at 32.6% of sales but converts that into 29.1% of profit at 32.6%, the lowest region and 4.0 points below the portfolio. Now the caveat: BevCo only sells in the South and FizzySip only in the West, so retailer and region are nearly the same variable here. Southern and southeastern cells carry the highest margins, and the gap survives inside a single brand: Coca-Cola earns about 35 percent in the West against 44 percent in the Southeast, so brand mix is not the whole explanation.
+
+[04:05-05:00]  ON SCREEN: 09_Monthly_Analysis, monthly trend and brand charts
+December is the biggest month at $1,045,775 and March the smallest at $483,530, 116.3% higher. But look at the driver: from January to December sales grew 104.8% while units grew only 24.4%, and realised price rose from 0.38 to 0.62 dollars, up 64.6%. So 2021 growth was price-led as much as volume-led, and margin barely moved - a range of about one point all year. July is the units peak at 1.76 million, so summer is a volume story and December a price story. Coca-Cola is the largest brand at 23.2% of sales and 25.0% of profit. Dasani is second on both sales and profit and has the highest profit per unit of the six brands, while Diet Coke and Sprite sit at the bottom.
+
+[05:00-06:10]  ON SCREEN: 13_Insights_Actions
+Four actions. First, investigate before cutting. Seattle earns 25.8% and San Francisco 29.1% on material sales, so a matched-cell review of price and margin is worth more than an immediate price change - the data has no cost field. Second, treat December and July as two different planning problems: December is a price peak, July a units peak. Third, put a volume guardrail on pricing, because price rose 64.6% while units rose 24.4%. Fourth, focus coverage: 37 of 54 cities clear one hundred thousand dollars and produce 83.7% of revenue. Each action names the extra evidence needed before a commercial change: cost per unit, distribution coverage and a second year of history.
+
+[06:10-06:50]  ON SCREEN: 15_Validation, then 12_Dashboard default view
+Limitations: one year of data, so these are within-year patterns, not proven seasonality, and there is no prior year to compare. No cost, promotion, distribution or store-count field exists, so I can show where margin differs but not why. Price and volume correlate at about 0.25, which is an association across markets, not proof of elasticity. Everything reconciles: 3,888 raw rows and 3,888 cleaned rows, the same sales total rebuilt by retailer, by region, by brand and by month. The workbook, report and script share one definition of every metric. If you take one thing away, make it this: the data locates the margin gap precisely, and the next step is to explain it, not to assume it.
+
+
+LIKELY EVALUATOR QUESTIONS
+
+Q: Why is your overall margin different from the average of the Operating Margin column?
+A: Because a simple average weights every row equally, so a city selling 4,000 units counts as much as one selling 12,000. The portfolio margin is total operating profit $3,173,632 divided by total sales $8,684,028, which is 36.5%. The simple row average is 36.3%, which sits 0.2 percentage points away from the weighted figure. Every margin in the workbook is a ratio of sums.
+
+Q: Is the West really less profitable, or is that just FizzySip?
+A: Both readings are in the data and I cannot separate them. The West is 32.6% against 36.5% for the portfolio, but FizzySip operates only in the West, and BevCo, the highest-margin retailer, operates only in the South. Retailer and region are almost the same variable here. What survives that caveat is the within-brand comparison: Coca-Cola earns 35.2% in the West versus 43.8% in the Southeast, so the gap is not just brand mix. It needs a cell-level review.
+
+Q: Can you claim seasonality from this data?
+A: No. I have twelve months from a single year, so I describe within-year patterns: December is the highest sales month, March the lowest, July the highest units month. To claim recurring seasonality I would need at least two or three years, and the workbook contains no prior-year actuals, which is why the trend chart has no prior-year line.
+
+Q: Does the price-volume correlation prove that lowering price raises volume?
+A: No. The pooled correlation is 0.25 and it is positive, which is the opposite of a simple demand curve, because expensive markets are also high-volume markets. It is an association across cities and months, confounded by retailer, location and time. Elasticity needs a controlled test with a comparison group, which is exactly what I recommend.
+
+Q: What would you do next with better data?
+A: Three additions would change the recommendations from investigation to action: cost of goods and operating cost per unit, so margin differences can be attributed; store counts or distribution coverage per city, so sales can be normalised into productivity; and two more years of history, so seasonality and price changes can be separated from growth. Promotion and availability data would complete the picture.
+
+RECORDING CHECKLIST
+
+- Record in a quiet room with the door closed; test the microphone for 10 seconds and play it back.
+- Wear plain professional clothing; avoid fine stripes and loud patterns on camera.
+- Set the browser or Excel zoom so the dashboard text is readable at 1080p; hide the formula bar and gridlines.
+- Turn off notifications, chat badges and email pop-ups before recording.
+- Reset the workbook to its default state: all slicers cleared, dashboard on the full-portfolio view.
+- Close anything private — other tabs, chat windows, file paths with personal names.
+- Keep the mouse still while speaking; move it only when you say you are moving it.
+- Play the full recording back once and check every number you say against the workbook.
+- Check sharing permissions before sending the link; use view-only unless the reviewer needs to filter.

@@ -1,0 +1,17 @@
+# Unrelated projects sharing this scratch workspace - never commit them
+backend/
+frontend/
+proxy/
+receiver/
+scripts/
+docs/
+threads/
+webhooklab/
+logpulse/
+nathaniel-workpack/
+
+# Build artefacts
+work/tmp/
+deliverables/*_base.xlsx
+__pycache__/
+*.pyc

@@ -1,0 +1,3733 @@
+{
+ "filename": "Coke-sales-analysis-stubs (1).xlsx",
+ "sheet_used": "Data",
+ "header_row": 5,
+ "headers": [
+  "Retailer",
+  "Retailer ID",
+  "Invoice Date",
+  "Region",
+  "State",
+  "City",
+  "Beverage Brand",
+  "Price per Unit",
+  "Units Sold",
+  "Total Sales",
+  "Operating Profit",
+  "Operating Margin"
+ ],
+ "data_rows": [
+  6,
+  3893
+ ],
+ "records": 3888,
+ "date_min": "2021-01-02",
+ "date_max": "2021-12-25",
+ "years": [
+  2021
+ ],
+ "total": {
+  "records": 3888,
+  "sales": 8684027.5,
+  "units": 17148250,
+  "profit": 3173631.875,
+  "margin": 0.36545622120611665,
+  "sales_per_unit": 0.5064089630137186,
+  "profit_per_unit": 0.18507030600790167,
+  "listed_price": 0.5064089630137186
+ },
+ "counts": {
+  "retailers": 4,
+  "regions": 5,
+  "states": 50,
+  "cities": 54,
+  "brands": 6,
+  "months": 12
+ },
+ "levels": {
+  "retailer": [
+   {
+    "records": 2304,
+    "sales": 4403630.0,
+    "units": 9153950,
+    "profit": 1647936.375,
+    "margin": 0.3742222609528957,
+    "sales_per_unit": 0.4810633660878637,
+    "profit_per_unit": 0.18002462051901091,
+    "listed_price": 0.4810633660878637,
+    "name": "Sodapop",
+    "sales_share": 0.5070953540854172,
+    "profit_share": 0.519258830232161,
+    "locations": 32,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 864,
+    "sales": 2584450.0,
+    "units": 4109000,
+    "profit": 835759.375,
+    "margin": 0.32337997446265165,
+    "sales_per_unit": 0.6289729861280117,
+    "profit_per_unit": 0.20339726819177414,
+    "listed_price": 0.6289729861280117,
+    "name": "FizzySip",
+    "sales_share": 0.2976096056812349,
+    "profit_share": 0.26334477592805244,
+    "locations": 12,
+    "retailers": [
+     "FizzySip"
+    ]
+   },
+   {
+    "records": 576,
+    "sales": 1291535.0,
+    "units": 3064800,
+    "profit": 542046.125,
+    "margin": 0.4196913943485852,
+    "sales_per_unit": 0.4214092273557818,
+    "profit_per_unit": 0.17686182622030802,
+    "listed_price": 0.4214092273557818,
+    "name": "BevCo",
+    "sales_share": 0.14872534662056286,
+    "profit_share": 0.17079678625297398,
+    "locations": 8,
+    "retailers": [
+     "BevCo"
+    ]
+   },
+   {
+    "records": 144,
+    "sales": 404412.5,
+    "units": 820500,
+    "profit": 147890.0,
+    "margin": 0.36569097147096097,
+    "sales_per_unit": 0.492885435709933,
+    "profit_per_unit": 0.18024375380865326,
+    "listed_price": 0.492885435709933,
+    "name": "DreamCo",
+    "sales_share": 0.04656969361278508,
+    "profit_share": 0.04659960758681251,
+    "locations": 2,
+    "retailers": [
+     "DreamCo"
+    ]
+   }
+  ],
+  "region": [
+   {
+    "records": 936,
+    "sales": 2835100.0,
+    "units": 4601500,
+    "profit": 923014.375,
+    "margin": 0.3255667789495961,
+    "sales_per_unit": 0.6161251765728567,
+    "profit_per_unit": 0.2005898891665761,
+    "listed_price": 0.6161251765728567,
+    "name": "West",
+    "sales_share": 0.32647294127062587,
+    "profit_share": 0.2908385128946312,
+    "locations": 13,
+    "retailers": [
+     "DreamCo",
+     "FizzySip"
+    ]
+   },
+   {
+    "records": 936,
+    "sales": 1788347.5,
+    "units": 3394550,
+    "profit": 629546.0,
+    "margin": 0.35202666148497425,
+    "sales_per_unit": 0.5268290347763327,
+    "profit_per_unit": 0.1854578662856638,
+    "listed_price": 0.5268290347763327,
+    "name": "Northeast",
+    "sales_share": 0.20593526448413482,
+    "profit_share": 0.19836768245214326,
+    "locations": 13,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 504,
+    "sales": 1618935.0,
+    "units": 3304450,
+    "profit": 641553.875,
+    "margin": 0.39628142884056494,
+    "sales_per_unit": 0.4899257062446095,
+    "profit_per_unit": 0.19414845889633675,
+    "listed_price": 0.4899257062446095,
+    "name": "Southeast",
+    "sales_share": 0.1864267472667492,
+    "profit_share": 0.2021513207167419,
+    "locations": 7,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 576,
+    "sales": 1291535.0,
+    "units": 3064800,
+    "profit": 542046.125,
+    "margin": 0.4196913943485852,
+    "sales_per_unit": 0.4214092273557818,
+    "profit_per_unit": 0.17686182622030802,
+    "listed_price": 0.4214092273557818,
+    "name": "South",
+    "sales_share": 0.14872534662056286,
+    "profit_share": 0.17079678625297398,
+    "locations": 8,
+    "retailers": [
+     "BevCo"
+    ]
+   },
+   {
+    "records": 936,
+    "sales": 1150110.0,
+    "units": 2782950,
+    "profit": 437471.5,
+    "margin": 0.38037361643668866,
+    "sales_per_unit": 0.4132700910903897,
+    "profit_per_unit": 0.1571970391131713,
+    "listed_price": 0.4132700910903897,
+    "name": "Midwest",
+    "sales_share": 0.13243970035792724,
+    "profit_share": 0.13784569768350968,
+    "locations": 13,
+    "retailers": [
+     "DreamCo",
+     "Sodapop"
+    ]
+   }
+  ],
+  "brand": [
+   {
+    "records": 648,
+    "sales": 2015890.0,
+    "units": 4133250,
+    "profit": 793197.25,
+    "margin": 0.39347248609795177,
+    "sales_per_unit": 0.48772515574910785,
+    "profit_per_unit": 0.1919064295651122,
+    "listed_price": 0.48772515574910785,
+    "name": "Coca-Cola",
+    "sales_share": 0.23213768035626325,
+    "profit_share": 0.24993360327905076,
+    "locations": 54,
+    "retailers": [
+     "BevCo",
+     "DreamCo",
+     "FizzySip",
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 648,
+    "sales": 1725837.5,
+    "units": 3000250,
+    "profit": 655700.0,
+    "margin": 0.3799314825410851,
+    "sales_per_unit": 0.5752312307307724,
+    "profit_per_unit": 0.21854845429547537,
+    "listed_price": 0.5752312307307724,
+    "name": "Dasani Water",
+    "sales_share": 0.19873699156295854,
+    "profit_share": 0.20660871387296612,
+    "locations": 54,
+    "retailers": [
+     "BevCo",
+     "DreamCo",
+     "FizzySip",
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 648,
+    "sales": 1481425.0000000002,
+    "units": 3001500,
+    "profit": 494317.5,
+    "margin": 0.3336770339369188,
+    "sales_per_unit": 0.49356155255705486,
+    "profit_per_unit": 0.16469015492253872,
+    "listed_price": 0.49356155255705486,
+    "name": "Diet Coke",
+    "sales_share": 0.17059192868746675,
+    "profit_share": 0.15575766801875848,
+    "locations": 54,
+    "retailers": [
+     "BevCo",
+     "DreamCo",
+     "FizzySip",
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 648,
+    "sales": 1235587.5,
+    "units": 2701250,
+    "profit": 430519.625,
+    "margin": 0.34843313403542847,
+    "sales_per_unit": 0.45741323461360484,
+    "profit_per_unit": 0.15937792688570107,
+    "listed_price": 0.45741323461360484,
+    "name": "Sprite",
+    "sales_share": 0.1422827714444709,
+    "profit_share": 0.1356551868511845,
+    "locations": 54,
+    "retailers": [
+     "BevCo",
+     "DreamCo",
+     "FizzySip",
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 648,
+    "sales": 1193637.5,
+    "units": 2120750,
+    "profit": 427071.875,
+    "margin": 0.35779026295671845,
+    "sales_per_unit": 0.5628374395850525,
+    "profit_per_unit": 0.20137775551102205,
+    "listed_price": 0.5628374395850525,
+    "name": "Powerade",
+    "sales_share": 0.13745206357303683,
+    "profit_share": 0.13456881321498576,
+    "locations": 54,
+    "retailers": [
+     "BevCo",
+     "DreamCo",
+     "FizzySip",
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 648,
+    "sales": 1031650.0,
+    "units": 2191250,
+    "profit": 372825.625,
+    "margin": 0.3613877041632337,
+    "sales_per_unit": 0.47080433542498573,
+    "profit_per_unit": 0.17014289788933257,
+    "listed_price": 0.47080433542498573,
+    "name": "Fanta",
+    "sales_share": 0.11879856437580374,
+    "profit_share": 0.1174760147630544,
+    "locations": 54,
+    "retailers": [
+     "BevCo",
+     "DreamCo",
+     "FizzySip",
+     "Sodapop"
+    ]
+   }
+  ],
+  "month": [
+   {
+    "records": 324,
+    "sales": 1045775.0000000001,
+    "units": 1677000,
+    "profit": 383415.625,
+    "margin": 0.3666329994501685,
+    "sales_per_unit": 0.6235986881335719,
+    "profit_per_unit": 0.22863185748360168,
+    "listed_price": 0.6235986881335719,
+    "name": "2021-12",
+    "sales_share": 0.12042511380808042,
+    "profit_share": 0.12081288571000377,
+    "locations": 54,
+    "retailers": [
+     "BevCo",
+     "DreamCo",
+     "FizzySip",
+     "Sodapop"
+    ],
+    "mom": 0.3144275636695,
+    "margin_pp": 0.1445486684846231
+   },
+   {
+    "records": 324,
+    "sales": 1041437.5,
+    "units": 1762500,
+    "profit": 384724.375,
+    "margin": 0.3694166716677669,
+    "sales_per_unit": 0.590886524822695,
+    "profit_per_unit": 0.21828333333333333,
+    "listed_price": 0.590886524822695,
+    "name": "2021-07",
+    "sales_share": 0.1199256335841866,
+    "profit_share": 0.12122526813227195,
+    "locations": 54,
+    "retailers": [
+     "BevCo",
+     "DreamCo",
+     "FizzySip",
+     "Sodapop"
+    ],
+    "mom": 0.1522397554870205,
+    "margin_pp": 0.11604862362042945
+   },
+   {
+    "records": 324,
+    "sales": 945275.0,
+    "units": 1654000,
+    "profit": 349565.625,
+    "margin": 0.3698030996270926,
+    "sales_per_unit": 0.5715084643288997,
+    "profit_per_unit": 0.2113456015719468,
+    "listed_price": 0.5715084643288997,
+    "name": "2021-08",
+    "sales_share": 0.10885214262621808,
+    "profit_share": 0.11014687234322033,
+    "locations": 54,
+    "retailers": [
+     "BevCo",
+     "DreamCo",
+     "FizzySip",
+     "Sodapop"
+    ],
+    "mom": -0.0923363139890776,
+    "margin_pp": 0.038642795932569696
+   },
+   {
+    "records": 324,
+    "sales": 903837.5,
+    "units": 1624750,
+    "profit": 332843.75,
+    "margin": 0.36825618543156263,
+    "sales_per_unit": 0.5562932758885982,
+    "profit_per_unit": 0.20485843975996307,
+    "listed_price": 0.5562932758885982,
+    "name": "2021-06",
+    "sales_share": 0.1040804511501144,
+    "profit_share": 0.10487786961743949,
+    "locations": 54,
+    "retailers": [
+     "BevCo",
+     "DreamCo",
+     "FizzySip",
+     "Sodapop"
+    ],
+    "mom": 0.3418562960928482,
+    "margin_pp": -0.04118124454290939
+   },
+   {
+    "records": 324,
+    "sales": 795612.5000000001,
+    "units": 1442500,
+    "profit": 290547.75,
+    "margin": 0.36518751276532224,
+    "sales_per_unit": 0.5515511265164645,
+    "profit_per_unit": 0.20141958405545926,
+    "listed_price": 0.5515511265164645,
+    "name": "2021-11",
+    "sales_share": 0.09161791576546713,
+    "profit_share": 0.09155055199967073,
+    "locations": 54,
+    "retailers": [
+     "BevCo",
+     "DreamCo",
+     "FizzySip",
+     "Sodapop"
+    ],
+    "mom": 0.27629837577702054,
+    "margin_pp": 0.19470876600484743
+   },
+   {
+    "records": 324,
+    "sales": 681000.0,
+    "units": 1377250,
+    "profit": 248413.75000000003,
+    "margin": 0.3647779001468429,
+    "sales_per_unit": 0.49446360500998365,
+    "profit_per_unit": 0.1803693955345798,
+    "listed_price": 0.49446360500998365,
+    "name": "2021-09",
+    "sales_share": 0.07841983457560446,
+    "profit_share": 0.07827427999978732,
+    "locations": 54,
+    "retailers": [
+     "BevCo",
+     "DreamCo",
+     "FizzySip",
+     "Sodapop"
+    ],
+    "mom": -0.27957472693131624,
+    "margin_pp": -0.5025199480249709
+   },
+   {
+    "records": 324,
+    "sales": 673572.5,
+    "units": 1355000,
+    "profit": 248324.625,
+    "margin": 0.3686679978769917,
+    "sales_per_unit": 0.4971014760147601,
+    "profit_per_unit": 0.18326540590405904,
+    "listed_price": 0.4971014760147601,
+    "name": "2021-05",
+    "sales_share": 0.07756452867059668,
+    "profit_share": 0.0782461970325402,
+    "locations": 54,
+    "retailers": [
+     "BevCo",
+     "DreamCo",
+     "FizzySip",
+     "Sodapop"
+    ],
+    "mom": 0.36106185749286457,
+    "margin_pp": 1.0233000023944339
+   },
+   {
+    "records": 324,
+    "sales": 623375.0,
+    "units": 1253250,
+    "profit": 226435.00000000003,
+    "margin": 0.36324042510527377,
+    "sales_per_unit": 0.4974067424695791,
+    "profit_per_unit": 0.18067823658487933,
+    "listed_price": 0.4974067424695791,
+    "name": "2021-10",
+    "sales_share": 0.07178408866162618,
+    "profit_share": 0.0713488548510372,
+    "locations": 54,
+    "retailers": [
+     "BevCo",
+     "DreamCo",
+     "FizzySip",
+     "Sodapop"
+    ],
+    "mom": -0.08461820851688695,
+    "margin_pp": -0.15374750415691474
+   },
+   {
+    "records": 324,
+    "sales": 510750.0,
+    "units": 1347750,
+    "profit": 183334.375,
+    "margin": 0.35895129711209006,
+    "sales_per_unit": 0.3789649415692821,
+    "profit_per_unit": 0.13602995733630124,
+    "listed_price": 0.3789649415692821,
+    "name": "2021-01",
+    "sales_share": 0.05881487593170335,
+    "profit_share": 0.05776800278702772,
+    "locations": 54,
+    "retailers": [
+     "BevCo",
+     "DreamCo",
+     "FizzySip",
+     "Sodapop"
+    ],
+    "mom": null,
+    "margin_pp": null
+   },
+   {
+    "records": 324,
+    "sales": 494887.5,
+    "units": 1175750,
+    "profit": 177385.0,
+    "margin": 0.3584349978530474,
+    "sales_per_unit": 0.4209121837125239,
+    "profit_per_unit": 0.15086965766532,
+    "listed_price": 0.4209121837125239,
+    "name": "2021-04",
+    "sales_share": 0.056988246525013886,
+    "profit_share": 0.055893376102418936,
+    "locations": 54,
+    "retailers": [
+     "BevCo",
+     "DreamCo",
+     "FizzySip",
+     "Sodapop"
+    ],
+    "mom": 0.023488718383554374,
+    "margin_pp": -0.22292835772671493
+   },
+   {
+    "records": 324,
+    "sales": 484975.0,
+    "units": 1274250,
+    "profit": 174250.0,
+    "margin": 0.35929687097273055,
+    "sales_per_unit": 0.38059642927212084,
+    "profit_per_unit": 0.1367471061408672,
+    "listed_price": 0.38059642927212084,
+    "name": "2021-02",
+    "sales_share": 0.05584678307386751,
+    "profit_share": 0.054905548867415506,
+    "locations": 54,
+    "retailers": [
+     "BevCo",
+     "DreamCo",
+     "FizzySip",
+     "Sodapop"
+    ],
+    "mom": -0.05046500244738128,
+    "margin_pp": 0.03455738606404912
+   },
+   {
+    "records": 324,
+    "sales": 483530.0,
+    "units": 1204250,
+    "profit": 174392.0,
+    "margin": 0.36066428143031454,
+    "sales_per_unit": 0.40151961801951425,
+    "profit_per_unit": 0.14481378451318247,
+    "listed_price": 0.40151961801951425,
+    "name": "2021-03",
+    "sales_share": 0.05568038562752133,
+    "profit_share": 0.05495029255716686,
+    "locations": 54,
+    "retailers": [
+     "BevCo",
+     "DreamCo",
+     "FizzySip",
+     "Sodapop"
+    ],
+    "mom": -0.0029795350275787502,
+    "margin_pp": 0.1367410457583984
+   }
+  ],
+  "state": [
+   {
+    "records": 144,
+    "sales": 582675.0,
+    "units": 1125200,
+    "profit": 203082.5,
+    "margin": 0.3485347749603124,
+    "sales_per_unit": 0.5178412726626378,
+    "profit_per_unit": 0.1804856914326342,
+    "listed_price": 0.5178412726626378,
+    "name": "New York",
+    "sales_share": 0.06709732321782721,
+    "profit_share": 0.06399056601358341,
+    "locations": 2,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 144,
+    "sales": 582400.0,
+    "units": 1037250,
+    "profit": 183895.625,
+    "margin": 0.31575485061813185,
+    "sales_per_unit": 0.5614846951072547,
+    "profit_per_unit": 0.17729151602795853,
+    "listed_price": 0.5614846951072547,
+    "name": "California",
+    "sales_share": 0.0670656558837475,
+    "profit_share": 0.0579448506452879,
+    "locations": 2,
+    "retailers": [
+     "DreamCo",
+     "FizzySip"
+    ]
+   },
+   {
+    "records": 144,
+    "sales": 561850.0,
+    "units": 1051700,
+    "profit": 214731.25,
+    "margin": 0.38218608169440244,
+    "sales_per_unit": 0.5342302938100219,
+    "profit_per_unit": 0.20417538271370161,
+    "listed_price": 0.5342302938100219,
+    "name": "Florida",
+    "sales_share": 0.06469924237342639,
+    "profit_share": 0.06766104528112606,
+    "locations": 2,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 144,
+    "sales": 440987.5,
+    "units": 1014250,
+    "profit": 176324.375,
+    "margin": 0.3998398480682559,
+    "sales_per_unit": 0.43479171801824007,
+    "profit_per_unit": 0.17384705447374907,
+    "listed_price": 0.43479171801824007,
+    "name": "Texas",
+    "sales_share": 0.05078144904538821,
+    "profit_share": 0.055559176976063114,
+    "locations": 2,
+    "retailers": [
+     "BevCo"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 292210.0,
+    "units": 579350,
+    "profit": 111621.5,
+    "margin": 0.3819906916258855,
+    "sales_per_unit": 0.5043755933373608,
+    "profit_per_unit": 0.19266678173815482,
+    "listed_price": 0.5043755933373608,
+    "name": "Georgia",
+    "sales_share": 0.03364913342340291,
+    "profit_share": 0.03517153356042594,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 255425.00000000003,
+    "units": 353500,
+    "profit": 77950.625,
+    "margin": 0.30518009200352353,
+    "sales_per_unit": 0.7225601131541727,
+    "profit_per_unit": 0.22051096181046675,
+    "listed_price": 0.7225601131541727,
+    "name": "Hawaii",
+    "sales_share": 0.02941319566295708,
+    "profit_share": 0.024561961837492572,
+    "locations": 1,
+    "retailers": [
+     "FizzySip"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 250237.50000000003,
+    "units": 348750,
+    "profit": 64440.62500000001,
+    "margin": 0.2575178580348669,
+    "sales_per_unit": 0.7175268817204302,
+    "profit_per_unit": 0.18477598566308245,
+    "listed_price": 0.7175268817204302,
+    "name": "Washington",
+    "sales_share": 0.028815834588271402,
+    "profit_share": 0.020305009382980188,
+    "locations": 1,
+    "retailers": [
+     "FizzySip"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 238055.00000000003,
+    "units": 507350,
+    "profit": 96130.12500000001,
+    "margin": 0.40381476969607866,
+    "sales_per_unit": 0.46921257514536324,
+    "profit_per_unit": 0.18947496797082886,
+    "listed_price": 0.46921257514536324,
+    "name": "South Carolina",
+    "sales_share": 0.02741297168853968,
+    "profit_share": 0.03029025696308902,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 226300.00000000003,
+    "units": 346750,
+    "profit": 89835.0,
+    "margin": 0.39697304463102073,
+    "sales_per_unit": 0.6526315789473685,
+    "profit_per_unit": 0.2590771449170872,
+    "listed_price": 0.6526315789473685,
+    "name": "Oregon",
+    "sales_share": 0.026059337099059166,
+    "profit_share": 0.028306685695863826,
+    "locations": 1,
+    "retailers": [
+     "FizzySip"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 213437.50000000003,
+    "units": 312250,
+    "profit": 54539.37500000001,
+    "margin": 0.2555285505124451,
+    "sales_per_unit": 0.683546837469976,
+    "profit_per_unit": 0.17466573258606888,
+    "listed_price": 0.683546837469976,
+    "name": "Alaska",
+    "sales_share": 0.02457816951869395,
+    "profit_share": 0.017185161086145193,
+    "locations": 1,
+    "retailers": [
+     "FizzySip"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 202725.00000000003,
+    "units": 324250,
+    "profit": 74185.62500000001,
+    "margin": 0.3659421630287335,
+    "sales_per_unit": 0.625212027756361,
+    "profit_per_unit": 0.2287914417887433,
+    "listed_price": 0.625212027756361,
+    "name": "Colorado",
+    "sales_share": 0.02334458291386111,
+    "profit_share": 0.023375623866268364,
+    "locations": 1,
+    "retailers": [
+     "FizzySip"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 199937.50000000003,
+    "units": 310750,
+    "profit": 69359.375,
+    "margin": 0.3469052829009065,
+    "sales_per_unit": 0.6434030571198713,
+    "profit_per_unit": 0.22319991954947707,
+    "listed_price": 0.6434030571198713,
+    "name": "Wyoming",
+    "sales_share": 0.02302359130023483,
+    "profit_share": 0.021854889833434133,
+    "locations": 1,
+    "retailers": [
+     "FizzySip"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 199937.50000000003,
+    "units": 310750,
+    "profit": 69359.375,
+    "margin": 0.3469052829009065,
+    "sales_per_unit": 0.6434030571198713,
+    "profit_per_unit": 0.22319991954947707,
+    "listed_price": 0.6434030571198713,
+    "name": "Utah",
+    "sales_share": 0.02302359130023483,
+    "profit_share": 0.021854889833434133,
+    "locations": 1,
+    "retailers": [
+     "FizzySip"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 199837.5,
+    "units": 324000,
+    "profit": 67107.5,
+    "margin": 0.3358103459060487,
+    "sales_per_unit": 0.6167824074074074,
+    "profit_per_unit": 0.20712191358024692,
+    "listed_price": 0.6167824074074074,
+    "name": "Nevada",
+    "sales_share": 0.02301207590602402,
+    "profit_share": 0.021145332112597337,
+    "locations": 1,
+    "retailers": [
+     "FizzySip"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 192137.50000000003,
+    "units": 331500,
+    "profit": 64156.25000000001,
+    "margin": 0.3339080085876,
+    "sales_per_unit": 0.5796003016591252,
+    "profit_per_unit": 0.19353318250377077,
+    "listed_price": 0.5796003016591252,
+    "name": "Arizona",
+    "sales_share": 0.022125390551791784,
+    "profit_share": 0.020215403842324974,
+    "locations": 1,
+    "retailers": [
+     "FizzySip"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 187222.5,
+    "units": 403350,
+    "profit": 81642.0,
+    "margin": 0.43606938268637585,
+    "sales_per_unit": 0.46416883599851244,
+    "profit_per_unit": 0.20240981777612496,
+    "listed_price": 0.46416883599851244,
+    "name": "Virginia",
+    "sales_share": 0.021559408926330553,
+    "profit_share": 0.025725100835773524,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 187045.00000000003,
+    "units": 399350,
+    "profit": 75650.5,
+    "margin": 0.40445080060947897,
+    "sales_per_unit": 0.46837360711155634,
+    "profit_per_unit": 0.1894340803806185,
+    "listed_price": 0.46837360711155634,
+    "name": "North Carolina",
+    "sales_share": 0.02153896910160637,
+    "profit_share": 0.023837200715032522,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 185375.0,
+    "units": 412250,
+    "profit": 76915.0,
+    "margin": 0.4149157113958193,
+    "sales_per_unit": 0.4496664645239539,
+    "profit_per_unit": 0.18657368101879926,
+    "listed_price": 0.4496664645239539,
+    "name": "Louisiana",
+    "sales_share": 0.02134666201828587,
+    "profit_share": 0.02423564012130424,
+    "locations": 1,
+    "retailers": [
+     "BevCo"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 175912.5,
+    "units": 427750,
+    "profit": 81647.5,
+    "margin": 0.4641369999289419,
+    "sales_per_unit": 0.4112507305669199,
+    "profit_per_unit": 0.19087668030391583,
+    "listed_price": 0.4112507305669199,
+    "name": "Tennessee",
+    "sales_share": 0.020257017841088135,
+    "profit_share": 0.025726833866010372,
+    "locations": 1,
+    "retailers": [
+     "BevCo"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 170562.5,
+    "units": 408500,
+    "profit": 87803.75,
+    "margin": 0.5147893001099304,
+    "sales_per_unit": 0.41753365973072215,
+    "profit_per_unit": 0.2149418604651163,
+    "listed_price": 0.41753365973072215,
+    "name": "Alabama",
+    "sales_share": 0.01964094425080989,
+    "profit_share": 0.027666646119755146,
+    "locations": 1,
+    "retailers": [
+     "BevCo"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 166075.0,
+    "units": 313500,
+    "profit": 59166.87500000001,
+    "margin": 0.35626599427969297,
+    "sales_per_unit": 0.5297448165869219,
+    "profit_per_unit": 0.1887300637958533,
+    "listed_price": 0.5297448165869219,
+    "name": "New Mexico",
+    "sales_share": 0.01912419093559987,
+    "profit_share": 0.018643269708147864,
+    "locations": 1,
+    "retailers": [
+     "FizzySip"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 156035.0,
+    "units": 256850,
+    "profit": 55118.5,
+    "margin": 0.353244464382991,
+    "sales_per_unit": 0.6074946466809422,
+    "profit_per_unit": 0.21459412108234377,
+    "listed_price": 0.6074946466809422,
+    "name": "Vermont",
+    "sales_share": 0.017968045356834716,
+    "profit_share": 0.01736764129267513,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 153762.5,
+    "units": 328000,
+    "profit": 60635.0,
+    "margin": 0.3943419234208601,
+    "sales_per_unit": 0.4687881097560976,
+    "profit_per_unit": 0.1848628048780488,
+    "listed_price": 0.4687881097560976,
+    "name": "Montana",
+    "sales_share": 0.017706358023394098,
+    "profit_share": 0.0191058706202338,
+    "locations": 1,
+    "retailers": [
+     "DreamCo"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 152552.5,
+    "units": 363350,
+    "profit": 61778.50000000001,
+    "margin": 0.40496550367906137,
+    "sales_per_unit": 0.41985000688041835,
+    "profit_per_unit": 0.170024769505986,
+    "listed_price": 0.41985000688041835,
+    "name": "Kentucky",
+    "sales_share": 0.01756702175344332,
+    "profit_share": 0.01946618336129486,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 148470.0,
+    "units": 238850,
+    "profit": 45147.12500000001,
+    "margin": 0.30408247457398807,
+    "sales_per_unit": 0.6216035168515804,
+    "profit_per_unit": 0.1890187356081223,
+    "listed_price": 0.6216035168515804,
+    "name": "New Hampshire",
+    "sales_share": 0.01709690578478707,
+    "profit_share": 0.014225696860320325,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 146650.0,
+    "units": 288250,
+    "profit": 49018.125,
+    "margin": 0.3342524718718036,
+    "sales_per_unit": 0.5087597571552471,
+    "profit_per_unit": 0.1700542064180399,
+    "listed_price": 0.5087597571552471,
+    "name": "Idaho",
+    "sales_share": 0.01688732561015036,
+    "profit_share": 0.015445435050654701,
+    "locations": 1,
+    "retailers": [
+     "FizzySip"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 134955.0,
+    "units": 241600,
+    "profit": 54544.625,
+    "margin": 0.4041689822533437,
+    "sales_per_unit": 0.5585885761589404,
+    "profit_per_unit": 0.22576417632450332,
+    "listed_price": 0.5585885761589404,
+    "name": "Massachusetts",
+    "sales_share": 0.01554060025719633,
+    "profit_share": 0.017186815342280365,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 122875.0,
+    "units": 241600,
+    "profit": 44818.625,
+    "margin": 0.36474974567650054,
+    "sales_per_unit": 0.5085885761589404,
+    "profit_per_unit": 0.185507553807947,
+    "listed_price": 0.5085885761589404,
+    "name": "Maryland",
+    "sales_share": 0.014149540636530688,
+    "profit_share": 0.014122187690719485,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 121982.50000000001,
+    "units": 309350,
+    "profit": 46924.87500000001,
+    "margin": 0.38468530321972416,
+    "sales_per_unit": 0.39431873282689517,
+    "profit_per_unit": 0.15168862130273156,
+    "listed_price": 0.39431873282689517,
+    "name": "Mississippi",
+    "sales_share": 0.014046765743199225,
+    "profit_share": 0.014785859497330644,
+    "locations": 1,
+    "retailers": [
+     "BevCo"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 113925.0,
+    "units": 223600,
+    "profit": 40461.5,
+    "margin": 0.3551590958964231,
+    "sales_per_unit": 0.5095035778175313,
+    "profit_per_unit": 0.18095483005366728,
+    "listed_price": 0.5095035778175313,
+    "name": "New Jersey",
+    "sales_share": 0.013118912854663345,
+    "profit_share": 0.012749273259678236,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 106825.0,
+    "units": 241600,
+    "profit": 42730.0,
+    "margin": 0.4,
+    "sales_per_unit": 0.44215645695364236,
+    "profit_per_unit": 0.17686258278145695,
+    "listed_price": 0.44215645695364236,
+    "name": "Indiana",
+    "sales_share": 0.012301319865695957,
+    "profit_share": 0.01346406945827641,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 101732.50000000001,
+    "units": 255350,
+    "profit": 39186.75,
+    "margin": 0.38519401371243206,
+    "sales_per_unit": 0.3984041511650676,
+    "profit_per_unit": 0.15346289406696692,
+    "listed_price": 0.3984041511650676,
+    "name": "Arkansas",
+    "sales_share": 0.011714898415510547,
+    "profit_share": 0.012347604115237845,
+    "locations": 1,
+    "retailers": [
+     "BevCo"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 101462.5,
+    "units": 198850,
+    "profit": 28709.5,
+    "margin": 0.2829567574226931,
+    "sales_per_unit": 0.5102464168971587,
+    "profit_per_unit": 0.14437767161176768,
+    "listed_price": 0.5102464168971587,
+    "name": "Rhode Island",
+    "sales_share": 0.011683806851141362,
+    "profit_share": 0.009046260288143848,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 95690.0,
+    "units": 165600,
+    "profit": 38607.375,
+    "margin": 0.4034630055387188,
+    "sales_per_unit": 0.5778381642512077,
+    "profit_per_unit": 0.23313632246376811,
+    "listed_price": 0.5778381642512077,
+    "name": "Pennsylvania",
+    "sales_share": 0.011019080720322453,
+    "profit_share": 0.012165045134606232,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 95262.5,
+    "units": 280350,
+    "profit": 38131.875,
+    "margin": 0.40028211520797796,
+    "sales_per_unit": 0.33979846620296056,
+    "profit_per_unit": 0.13601524879614768,
+    "listed_price": 0.33979846620296056,
+    "name": "Michigan",
+    "sales_share": 0.010969852410071248,
+    "profit_share": 0.012015216793220544,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 95142.5,
+    "units": 203600,
+    "profit": 36742.0,
+    "margin": 0.38617862679664716,
+    "sales_per_unit": 0.4673010805500982,
+    "profit_per_unit": 0.18046168958742634,
+    "listed_price": 0.4673010805500982,
+    "name": "Ohio",
+    "sales_share": 0.01095603393701828,
+    "profit_share": 0.011577272174958856,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 94982.5,
+    "units": 237350,
+    "profit": 33243.875,
+    "margin": 0.35,
+    "sales_per_unit": 0.4001790604592374,
+    "profit_per_unit": 0.1400626711607331,
+    "listed_price": 0.4001790604592374,
+    "name": "Oklahoma",
+    "sales_share": 0.010937609306280986,
+    "profit_share": 0.010475025557272612,
+    "locations": 1,
+    "retailers": [
+     "BevCo"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 94695.0,
+    "units": 205600,
+    "profit": 34532.0,
+    "margin": 0.3646655050425049,
+    "sales_per_unit": 0.46057879377431904,
+    "profit_per_unit": 0.16795719844357976,
+    "listed_price": 0.46057879377431904,
+    "name": "Delaware",
+    "sales_share": 0.010904502547924912,
+    "profit_share": 0.01088090911615261,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 93282.5,
+    "units": 185600,
+    "profit": 37438.0,
+    "margin": 0.4013400155441803,
+    "sales_per_unit": 0.502599676724138,
+    "profit_per_unit": 0.2017133620689655,
+    "listed_price": 0.502599676724138,
+    "name": "Illinois",
+    "sales_share": 0.010741847604697244,
+    "profit_share": 0.011796579274021817,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 91370.00000000001,
+    "units": 316350,
+    "profit": 36594.75,
+    "margin": 0.4005116559045638,
+    "sales_per_unit": 0.28882566777303625,
+    "profit_per_unit": 0.11567804646752015,
+    "listed_price": 0.28882566777303625,
+    "name": "Missouri",
+    "sales_share": 0.010521615690415537,
+    "profit_share": 0.01153087422907233,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 87825.0,
+    "units": 172600,
+    "profit": 30821.125,
+    "margin": 0.3509379447765443,
+    "sales_per_unit": 0.5088354577056778,
+    "profit_per_unit": 0.1785696697566628,
+    "listed_price": 0.5088354577056778,
+    "name": "Maine",
+    "sales_share": 0.010113394965642382,
+    "profit_share": 0.009711625737941014,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 85752.5,
+    "units": 205850,
+    "profit": 32331.875,
+    "margin": 0.3770371126206233,
+    "sales_per_unit": 0.41657760505222247,
+    "profit_per_unit": 0.15706521739130436,
+    "listed_price": 0.41657760505222247,
+    "name": "Wisconsin",
+    "sales_share": 0.00987473842062338,
+    "profit_share": 0.010187657634362524,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 84090.0,
+    "units": 180600,
+    "profit": 28868.25,
+    "margin": 0.3433018194791295,
+    "sales_per_unit": 0.4656146179401993,
+    "profit_per_unit": 0.15984634551495017,
+    "listed_price": 0.4656146179401993,
+    "name": "Kansas",
+    "sales_share": 0.009683294991868692,
+    "profit_share": 0.009096281842707419,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 78595.0,
+    "units": 169600,
+    "profit": 28667.0,
+    "margin": 0.36474330428144286,
+    "sales_per_unit": 0.4634139150943396,
+    "profit_per_unit": 0.16902712264150943,
+    "listed_price": 0.4634139150943396,
+    "name": "Connecticut",
+    "sales_share": 0.009050524079984777,
+    "profit_share": 0.009032868690859112,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 77285.0,
+    "units": 180600,
+    "profit": 26580.75,
+    "margin": 0.34393155204761594,
+    "sales_per_unit": 0.42793466223698784,
+    "profit_per_unit": 0.14718023255813953,
+    "listed_price": 0.42793466223698784,
+    "name": "South Dakota",
+    "sales_share": 0.008899672415823187,
+    "profit_share": 0.00837549881238195,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 72667.5,
+    "units": 183100,
+    "profit": 25784.625,
+    "margin": 0.3548302198369285,
+    "sales_per_unit": 0.3968732932823594,
+    "profit_per_unit": 0.14082263790278537,
+    "listed_price": 0.3968732932823594,
+    "name": "Iowa",
+    "sales_share": 0.008367949088139115,
+    "profit_share": 0.008124642685598184,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 72380.0,
+    "units": 184100,
+    "profit": 25662.125,
+    "margin": 0.3545471815418624,
+    "sales_per_unit": 0.3931558935361217,
+    "profit_per_unit": 0.13939231395980445,
+    "listed_price": 0.3931558935361217,
+    "name": "North Dakota",
+    "sales_share": 0.008334842329783041,
+    "profit_share": 0.008086043375777476,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 71145.0,
+    "units": 154600,
+    "profit": 25036.125,
+    "margin": 0.35190280413240566,
+    "sales_per_unit": 0.4601875808538163,
+    "profit_per_unit": 0.1619413001293661,
+    "listed_price": 0.4601875808538163,
+    "name": "West Virginia",
+    "sales_share": 0.008192627211279559,
+    "profit_share": 0.007888793025183489,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 67910.0,
+    "units": 156850,
+    "profit": 23980.75,
+    "margin": 0.3531254601678692,
+    "sales_per_unit": 0.43296142811603444,
+    "profit_per_unit": 0.1528897035384125,
+    "listed_price": 0.43296142811603444,
+    "name": "Minnesota",
+    "sales_share": 0.00782010420855991,
+    "profit_share": 0.0075562481549628375,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ]
+   },
+   {
+    "records": 72,
+    "sales": 54380.0,
+    "units": 136350,
+    "profit": 21991.5,
+    "margin": 0.404404192717911,
+    "sales_per_unit": 0.39882654932159883,
+    "profit_per_unit": 0.1612871287128713,
+    "listed_price": 0.39882654932159883,
+    "name": "Nebraska",
+    "sales_share": 0.006262071371837549,
+    "profit_share": 0.006929442627935541,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ]
+   }
+  ],
+  "location": [
+   {
+    "records": 72,
+    "sales": 391767.5,
+    "units": 706600,
+    "profit": 135983.5,
+    "margin": 0.3471025544487483,
+    "sales_per_unit": 0.554440277384659,
+    "profit_per_unit": 0.19244763656948768,
+    "listed_price": 0.554440277384659,
+    "name": "New York | New York",
+    "sales_share": 0.04511357201482837,
+    "profit_share": 0.04284791222044302,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.04511357201482837
+   },
+   {
+    "records": 72,
+    "sales": 331750.0,
+    "units": 544750,
+    "profit": 96640.625,
+    "margin": 0.2913055764883195,
+    "sales_per_unit": 0.6089949518127582,
+    "profit_per_unit": 0.17740362551629188,
+    "listed_price": 0.6089949518127582,
+    "name": "California | San Francisco",
+    "sales_share": 0.03820232029435651,
+    "profit_share": 0.03045111367870919,
+    "locations": 1,
+    "retailers": [
+     "FizzySip"
+    ],
+    "cum_share": 0.08331589230918487
+   },
+   {
+    "records": 72,
+    "sales": 319025.0,
+    "units": 597850,
+    "profit": 121600.625,
+    "margin": 0.3811633100854165,
+    "sales_per_unit": 0.5336204733628837,
+    "profit_per_unit": 0.20339654595634357,
+    "listed_price": 0.5336204733628837,
+    "name": "Florida | Miami",
+    "sales_share": 0.03673698638103115,
+    "profit_share": 0.03831591998993267,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.12005287869021602
+   },
+   {
+    "records": 72,
+    "sales": 292210.0,
+    "units": 579350,
+    "profit": 111621.5,
+    "margin": 0.3819906916258855,
+    "sales_per_unit": 0.5043755933373608,
+    "profit_per_unit": 0.19266678173815482,
+    "listed_price": 0.5043755933373608,
+    "name": "Georgia | Atlanta",
+    "sales_share": 0.03364913342340291,
+    "profit_share": 0.03517153356042594,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.15370201211361895
+   },
+   {
+    "records": 72,
+    "sales": 255425.00000000003,
+    "units": 353500,
+    "profit": 77950.625,
+    "margin": 0.30518009200352353,
+    "sales_per_unit": 0.7225601131541727,
+    "profit_per_unit": 0.22051096181046675,
+    "listed_price": 0.7225601131541727,
+    "name": "Hawaii | Honolulu",
+    "sales_share": 0.02941319566295708,
+    "profit_share": 0.024561961837492572,
+    "locations": 1,
+    "retailers": [
+     "FizzySip"
+    ],
+    "cum_share": 0.18311520777657603
+   },
+   {
+    "records": 72,
+    "sales": 250650.0,
+    "units": 492500,
+    "profit": 87255.0,
+    "margin": 0.3481149012567325,
+    "sales_per_unit": 0.5089340101522842,
+    "profit_per_unit": 0.17716751269035533,
+    "listed_price": 0.5089340101522842,
+    "name": "California | Los Angeles",
+    "sales_share": 0.02886333558939098,
+    "profit_share": 0.027493736966578707,
+    "locations": 1,
+    "retailers": [
+     "DreamCo"
+    ],
+    "cum_share": 0.211978543365967
+   },
+   {
+    "records": 72,
+    "sales": 250237.50000000003,
+    "units": 348750,
+    "profit": 64440.62500000001,
+    "margin": 0.2575178580348669,
+    "sales_per_unit": 0.7175268817204302,
+    "profit_per_unit": 0.18477598566308245,
+    "listed_price": 0.7175268817204302,
+    "name": "Washington | Seattle",
+    "sales_share": 0.028815834588271402,
+    "profit_share": 0.020305009382980188,
+    "locations": 1,
+    "retailers": [
+     "FizzySip"
+    ],
+    "cum_share": 0.2407943779542384
+   },
+   {
+    "records": 72,
+    "sales": 242825.00000000003,
+    "units": 453850,
+    "profit": 93130.625,
+    "margin": 0.3835298054154226,
+    "sales_per_unit": 0.5350336014101577,
+    "profit_per_unit": 0.20520133303955052,
+    "listed_price": 0.5350336014101577,
+    "name": "Florida | Orlando",
+    "sales_share": 0.027962255992395237,
+    "profit_share": 0.02934512529119339,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.2687566339466336
+   },
+   {
+    "records": 72,
+    "sales": 238850.0,
+    "units": 566000,
+    "profit": 92478.125,
+    "margin": 0.3871807619845091,
+    "sales_per_unit": 0.4219964664310954,
+    "profit_per_unit": 0.16338891342756184,
+    "listed_price": 0.4219964664310954,
+    "name": "Texas | Houston",
+    "sales_share": 0.027504519072515603,
+    "profit_share": 0.029139524885821864,
+    "locations": 1,
+    "retailers": [
+     "BevCo"
+    ],
+    "cum_share": 0.29626115301914924
+   },
+   {
+    "records": 72,
+    "sales": 238055.00000000003,
+    "units": 507350,
+    "profit": 96130.12500000001,
+    "margin": 0.40381476969607866,
+    "sales_per_unit": 0.46921257514536324,
+    "profit_per_unit": 0.18947496797082886,
+    "listed_price": 0.46921257514536324,
+    "name": "South Carolina | Charleston",
+    "sales_share": 0.02741297168853968,
+    "profit_share": 0.03029025696308902,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.3236741247076889
+   },
+   {
+    "records": 72,
+    "sales": 226300.00000000003,
+    "units": 346750,
+    "profit": 89835.0,
+    "margin": 0.39697304463102073,
+    "sales_per_unit": 0.6526315789473685,
+    "profit_per_unit": 0.2590771449170872,
+    "listed_price": 0.6526315789473685,
+    "name": "Oregon | Portland",
+    "sales_share": 0.026059337099059166,
+    "profit_share": 0.028306685695863826,
+    "locations": 1,
+    "retailers": [
+     "FizzySip"
+    ],
+    "cum_share": 0.3497334618067481
+   },
+   {
+    "records": 72,
+    "sales": 213437.50000000003,
+    "units": 312250,
+    "profit": 54539.37500000001,
+    "margin": 0.2555285505124451,
+    "sales_per_unit": 0.683546837469976,
+    "profit_per_unit": 0.17466573258606888,
+    "listed_price": 0.683546837469976,
+    "name": "Alaska | Anchorage",
+    "sales_share": 0.02457816951869395,
+    "profit_share": 0.017185161086145193,
+    "locations": 1,
+    "retailers": [
+     "FizzySip"
+    ],
+    "cum_share": 0.37431163132544204
+   },
+   {
+    "records": 72,
+    "sales": 202725.00000000003,
+    "units": 324250,
+    "profit": 74185.62500000001,
+    "margin": 0.3659421630287335,
+    "sales_per_unit": 0.625212027756361,
+    "profit_per_unit": 0.2287914417887433,
+    "listed_price": 0.625212027756361,
+    "name": "Colorado | Denver",
+    "sales_share": 0.02334458291386111,
+    "profit_share": 0.023375623866268364,
+    "locations": 1,
+    "retailers": [
+     "FizzySip"
+    ],
+    "cum_share": 0.39765621423930314
+   },
+   {
+    "records": 72,
+    "sales": 202137.5,
+    "units": 448250,
+    "profit": 83846.25,
+    "margin": 0.41479809535588397,
+    "sales_per_unit": 0.45094813162297825,
+    "profit_per_unit": 0.18705242610150585,
+    "listed_price": 0.45094813162297825,
+    "name": "Texas | Dallas",
+    "sales_share": 0.02327692997287261,
+    "profit_share": 0.026419652090241247,
+    "locations": 1,
+    "retailers": [
+     "BevCo"
+    ],
+    "cum_share": 0.42093314421217576
+   },
+   {
+    "records": 72,
+    "sales": 199937.50000000003,
+    "units": 310750,
+    "profit": 69359.375,
+    "margin": 0.3469052829009065,
+    "sales_per_unit": 0.6434030571198713,
+    "profit_per_unit": 0.22319991954947707,
+    "listed_price": 0.6434030571198713,
+    "name": "Wyoming | Cheyenne",
+    "sales_share": 0.02302359130023483,
+    "profit_share": 0.021854889833434133,
+    "locations": 1,
+    "retailers": [
+     "FizzySip"
+    ],
+    "cum_share": 0.44395673551241055
+   },
+   {
+    "records": 72,
+    "sales": 199937.50000000003,
+    "units": 310750,
+    "profit": 69359.375,
+    "margin": 0.3469052829009065,
+    "sales_per_unit": 0.6434030571198713,
+    "profit_per_unit": 0.22319991954947707,
+    "listed_price": 0.6434030571198713,
+    "name": "Utah | Salt Lake City",
+    "sales_share": 0.02302359130023483,
+    "profit_share": 0.021854889833434133,
+    "locations": 1,
+    "retailers": [
+     "FizzySip"
+    ],
+    "cum_share": 0.4669803268126454
+   },
+   {
+    "records": 72,
+    "sales": 199837.5,
+    "units": 324000,
+    "profit": 67107.5,
+    "margin": 0.3358103459060487,
+    "sales_per_unit": 0.6167824074074074,
+    "profit_per_unit": 0.20712191358024692,
+    "listed_price": 0.6167824074074074,
+    "name": "Nevada | Las Vegas",
+    "sales_share": 0.02301207590602402,
+    "profit_share": 0.021145332112597337,
+    "locations": 1,
+    "retailers": [
+     "FizzySip"
+    ],
+    "cum_share": 0.4899924027186694
+   },
+   {
+    "records": 72,
+    "sales": 192137.50000000003,
+    "units": 331500,
+    "profit": 64156.25000000001,
+    "margin": 0.3339080085876,
+    "sales_per_unit": 0.5796003016591252,
+    "profit_per_unit": 0.19353318250377077,
+    "listed_price": 0.5796003016591252,
+    "name": "Arizona | Phoenix",
+    "sales_share": 0.022125390551791784,
+    "profit_share": 0.020215403842324974,
+    "locations": 1,
+    "retailers": [
+     "FizzySip"
+    ],
+    "cum_share": 0.5121177932704613
+   },
+   {
+    "records": 72,
+    "sales": 190907.5,
+    "units": 418600,
+    "profit": 67099.0,
+    "margin": 0.3514738813299635,
+    "sales_per_unit": 0.456061872909699,
+    "profit_per_unit": 0.1602938365981844,
+    "listed_price": 0.456061872909699,
+    "name": "New York | Albany",
+    "sales_share": 0.02198375120299884,
+    "profit_share": 0.02114265379314039,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.53410154447346
+   },
+   {
+    "records": 72,
+    "sales": 187222.5,
+    "units": 403350,
+    "profit": 81642.0,
+    "margin": 0.43606938268637585,
+    "sales_per_unit": 0.46416883599851244,
+    "profit_per_unit": 0.20240981777612496,
+    "listed_price": 0.46416883599851244,
+    "name": "Virginia | Richmond",
+    "sales_share": 0.021559408926330553,
+    "profit_share": 0.025725100835773524,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.5556609533997906
+   },
+   {
+    "records": 72,
+    "sales": 187045.00000000003,
+    "units": 399350,
+    "profit": 75650.5,
+    "margin": 0.40445080060947897,
+    "sales_per_unit": 0.46837360711155634,
+    "profit_per_unit": 0.1894340803806185,
+    "listed_price": 0.46837360711155634,
+    "name": "North Carolina | Charlotte",
+    "sales_share": 0.02153896910160637,
+    "profit_share": 0.023837200715032522,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.577199922501397
+   },
+   {
+    "records": 72,
+    "sales": 185375.0,
+    "units": 412250,
+    "profit": 76915.0,
+    "margin": 0.4149157113958193,
+    "sales_per_unit": 0.4496664645239539,
+    "profit_per_unit": 0.18657368101879926,
+    "listed_price": 0.4496664645239539,
+    "name": "Louisiana | New Orleans",
+    "sales_share": 0.02134666201828587,
+    "profit_share": 0.02423564012130424,
+    "locations": 1,
+    "retailers": [
+     "BevCo"
+    ],
+    "cum_share": 0.5985465845196828
+   },
+   {
+    "records": 72,
+    "sales": 175912.5,
+    "units": 427750,
+    "profit": 81647.5,
+    "margin": 0.4641369999289419,
+    "sales_per_unit": 0.4112507305669199,
+    "profit_per_unit": 0.19087668030391583,
+    "listed_price": 0.4112507305669199,
+    "name": "Tennessee | Knoxville",
+    "sales_share": 0.020257017841088135,
+    "profit_share": 0.025726833866010372,
+    "locations": 1,
+    "retailers": [
+     "BevCo"
+    ],
+    "cum_share": 0.6188036023607709
+   },
+   {
+    "records": 72,
+    "sales": 170562.5,
+    "units": 408500,
+    "profit": 87803.75,
+    "margin": 0.5147893001099304,
+    "sales_per_unit": 0.41753365973072215,
+    "profit_per_unit": 0.2149418604651163,
+    "listed_price": 0.41753365973072215,
+    "name": "Alabama | Birmingham",
+    "sales_share": 0.01964094425080989,
+    "profit_share": 0.027666646119755146,
+    "locations": 1,
+    "retailers": [
+     "BevCo"
+    ],
+    "cum_share": 0.6384445466115809
+   },
+   {
+    "records": 72,
+    "sales": 166075.0,
+    "units": 313500,
+    "profit": 59166.87500000001,
+    "margin": 0.35626599427969297,
+    "sales_per_unit": 0.5297448165869219,
+    "profit_per_unit": 0.1887300637958533,
+    "listed_price": 0.5297448165869219,
+    "name": "New Mexico | Albuquerque",
+    "sales_share": 0.01912419093559987,
+    "profit_share": 0.018643269708147864,
+    "locations": 1,
+    "retailers": [
+     "FizzySip"
+    ],
+    "cum_share": 0.6575687375471807
+   },
+   {
+    "records": 72,
+    "sales": 156035.0,
+    "units": 256850,
+    "profit": 55118.5,
+    "margin": 0.353244464382991,
+    "sales_per_unit": 0.6074946466809422,
+    "profit_per_unit": 0.21459412108234377,
+    "listed_price": 0.6074946466809422,
+    "name": "Vermont | Burlington",
+    "sales_share": 0.017968045356834716,
+    "profit_share": 0.01736764129267513,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.6755367829040154
+   },
+   {
+    "records": 72,
+    "sales": 153762.5,
+    "units": 328000,
+    "profit": 60635.0,
+    "margin": 0.3943419234208601,
+    "sales_per_unit": 0.4687881097560976,
+    "profit_per_unit": 0.1848628048780488,
+    "listed_price": 0.4687881097560976,
+    "name": "Montana | Billings",
+    "sales_share": 0.017706358023394098,
+    "profit_share": 0.0191058706202338,
+    "locations": 1,
+    "retailers": [
+     "DreamCo"
+    ],
+    "cum_share": 0.6932431409274096
+   },
+   {
+    "records": 72,
+    "sales": 152552.5,
+    "units": 363350,
+    "profit": 61778.50000000001,
+    "margin": 0.40496550367906137,
+    "sales_per_unit": 0.41985000688041835,
+    "profit_per_unit": 0.170024769505986,
+    "listed_price": 0.41985000688041835,
+    "name": "Kentucky | Louisville",
+    "sales_share": 0.01756702175344332,
+    "profit_share": 0.01946618336129486,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.7108101626808528
+   },
+   {
+    "records": 72,
+    "sales": 148470.0,
+    "units": 238850,
+    "profit": 45147.12500000001,
+    "margin": 0.30408247457398807,
+    "sales_per_unit": 0.6216035168515804,
+    "profit_per_unit": 0.1890187356081223,
+    "listed_price": 0.6216035168515804,
+    "name": "New Hampshire | Manchester",
+    "sales_share": 0.01709690578478707,
+    "profit_share": 0.014225696860320325,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.7279070684656399
+   },
+   {
+    "records": 72,
+    "sales": 146650.0,
+    "units": 288250,
+    "profit": 49018.125,
+    "margin": 0.3342524718718036,
+    "sales_per_unit": 0.5087597571552471,
+    "profit_per_unit": 0.1700542064180399,
+    "listed_price": 0.5087597571552471,
+    "name": "Idaho | Boise",
+    "sales_share": 0.01688732561015036,
+    "profit_share": 0.015445435050654701,
+    "locations": 1,
+    "retailers": [
+     "FizzySip"
+    ],
+    "cum_share": 0.7447943940757903
+   },
+   {
+    "records": 72,
+    "sales": 134955.0,
+    "units": 241600,
+    "profit": 54544.625,
+    "margin": 0.4041689822533437,
+    "sales_per_unit": 0.5585885761589404,
+    "profit_per_unit": 0.22576417632450332,
+    "listed_price": 0.5585885761589404,
+    "name": "Massachusetts | Boston",
+    "sales_share": 0.01554060025719633,
+    "profit_share": 0.017186815342280365,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.7603349943329866
+   },
+   {
+    "records": 72,
+    "sales": 122875.0,
+    "units": 241600,
+    "profit": 44818.625,
+    "margin": 0.36474974567650054,
+    "sales_per_unit": 0.5085885761589404,
+    "profit_per_unit": 0.185507553807947,
+    "listed_price": 0.5085885761589404,
+    "name": "Maryland | Baltimore",
+    "sales_share": 0.014149540636530688,
+    "profit_share": 0.014122187690719485,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.7744845349695173
+   },
+   {
+    "records": 72,
+    "sales": 121982.50000000001,
+    "units": 309350,
+    "profit": 46924.87500000001,
+    "margin": 0.38468530321972416,
+    "sales_per_unit": 0.39431873282689517,
+    "profit_per_unit": 0.15168862130273156,
+    "listed_price": 0.39431873282689517,
+    "name": "Mississippi | Jackson",
+    "sales_share": 0.014046765743199225,
+    "profit_share": 0.014785859497330644,
+    "locations": 1,
+    "retailers": [
+     "BevCo"
+    ],
+    "cum_share": 0.7885313007127165
+   },
+   {
+    "records": 72,
+    "sales": 113925.0,
+    "units": 223600,
+    "profit": 40461.5,
+    "margin": 0.3551590958964231,
+    "sales_per_unit": 0.5095035778175313,
+    "profit_per_unit": 0.18095483005366728,
+    "listed_price": 0.5095035778175313,
+    "name": "New Jersey | Newark",
+    "sales_share": 0.013118912854663345,
+    "profit_share": 0.012749273259678236,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.8016502135673799
+   },
+   {
+    "records": 72,
+    "sales": 106825.0,
+    "units": 241600,
+    "profit": 42730.0,
+    "margin": 0.4,
+    "sales_per_unit": 0.44215645695364236,
+    "profit_per_unit": 0.17686258278145695,
+    "listed_price": 0.44215645695364236,
+    "name": "Indiana | Indianapolis",
+    "sales_share": 0.012301319865695957,
+    "profit_share": 0.01346406945827641,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.8139515334330758
+   },
+   {
+    "records": 72,
+    "sales": 101732.50000000001,
+    "units": 255350,
+    "profit": 39186.75,
+    "margin": 0.38519401371243206,
+    "sales_per_unit": 0.3984041511650676,
+    "profit_per_unit": 0.15346289406696692,
+    "listed_price": 0.3984041511650676,
+    "name": "Arkansas | Little Rock",
+    "sales_share": 0.011714898415510547,
+    "profit_share": 0.012347604115237845,
+    "locations": 1,
+    "retailers": [
+     "BevCo"
+    ],
+    "cum_share": 0.8256664318485863
+   },
+   {
+    "records": 72,
+    "sales": 101462.5,
+    "units": 198850,
+    "profit": 28709.5,
+    "margin": 0.2829567574226931,
+    "sales_per_unit": 0.5102464168971587,
+    "profit_per_unit": 0.14437767161176768,
+    "listed_price": 0.5102464168971587,
+    "name": "Rhode Island | Providence",
+    "sales_share": 0.011683806851141362,
+    "profit_share": 0.009046260288143848,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.8373502386997278
+   },
+   {
+    "records": 72,
+    "sales": 95690.0,
+    "units": 165600,
+    "profit": 38607.375,
+    "margin": 0.4034630055387188,
+    "sales_per_unit": 0.5778381642512077,
+    "profit_per_unit": 0.23313632246376811,
+    "listed_price": 0.5778381642512077,
+    "name": "Pennsylvania | Philadelphia",
+    "sales_share": 0.011019080720322453,
+    "profit_share": 0.012165045134606232,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.8483693194200502
+   },
+   {
+    "records": 72,
+    "sales": 95262.5,
+    "units": 280350,
+    "profit": 38131.875,
+    "margin": 0.40028211520797796,
+    "sales_per_unit": 0.33979846620296056,
+    "profit_per_unit": 0.13601524879614768,
+    "listed_price": 0.33979846620296056,
+    "name": "Michigan | Detroit",
+    "sales_share": 0.010969852410071248,
+    "profit_share": 0.012015216793220544,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.8593391718301214
+   },
+   {
+    "records": 72,
+    "sales": 95142.5,
+    "units": 203600,
+    "profit": 36742.0,
+    "margin": 0.38617862679664716,
+    "sales_per_unit": 0.4673010805500982,
+    "profit_per_unit": 0.18046168958742634,
+    "listed_price": 0.4673010805500982,
+    "name": "Ohio | Columbus",
+    "sales_share": 0.01095603393701828,
+    "profit_share": 0.011577272174958856,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.8702952057671397
+   },
+   {
+    "records": 72,
+    "sales": 94982.5,
+    "units": 237350,
+    "profit": 33243.875,
+    "margin": 0.35,
+    "sales_per_unit": 0.4001790604592374,
+    "profit_per_unit": 0.1400626711607331,
+    "listed_price": 0.4001790604592374,
+    "name": "Oklahoma | Oklahoma City",
+    "sales_share": 0.010937609306280986,
+    "profit_share": 0.010475025557272612,
+    "locations": 1,
+    "retailers": [
+     "BevCo"
+    ],
+    "cum_share": 0.8812328150734207
+   },
+   {
+    "records": 72,
+    "sales": 94695.0,
+    "units": 205600,
+    "profit": 34532.0,
+    "margin": 0.3646655050425049,
+    "sales_per_unit": 0.46057879377431904,
+    "profit_per_unit": 0.16795719844357976,
+    "listed_price": 0.46057879377431904,
+    "name": "Delaware | Wilmington",
+    "sales_share": 0.010904502547924912,
+    "profit_share": 0.01088090911615261,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.8921373176213456
+   },
+   {
+    "records": 72,
+    "sales": 93282.5,
+    "units": 185600,
+    "profit": 37438.0,
+    "margin": 0.4013400155441803,
+    "sales_per_unit": 0.502599676724138,
+    "profit_per_unit": 0.2017133620689655,
+    "listed_price": 0.502599676724138,
+    "name": "Illinois | Chicago",
+    "sales_share": 0.010741847604697244,
+    "profit_share": 0.011796579274021817,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.9028791652260428
+   },
+   {
+    "records": 72,
+    "sales": 91370.00000000001,
+    "units": 316350,
+    "profit": 36594.75,
+    "margin": 0.4005116559045638,
+    "sales_per_unit": 0.28882566777303625,
+    "profit_per_unit": 0.11567804646752015,
+    "listed_price": 0.28882566777303625,
+    "name": "Missouri | St. Louis",
+    "sales_share": 0.010521615690415537,
+    "profit_share": 0.01153087422907233,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.9134007809164584
+   },
+   {
+    "records": 72,
+    "sales": 87825.0,
+    "units": 172600,
+    "profit": 30821.125,
+    "margin": 0.3509379447765443,
+    "sales_per_unit": 0.5088354577056778,
+    "profit_per_unit": 0.1785696697566628,
+    "listed_price": 0.5088354577056778,
+    "name": "Maine | Portland",
+    "sales_share": 0.010113394965642382,
+    "profit_share": 0.009711625737941014,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.9235141758821008
+   },
+   {
+    "records": 72,
+    "sales": 85752.5,
+    "units": 205850,
+    "profit": 32331.875,
+    "margin": 0.3770371126206233,
+    "sales_per_unit": 0.41657760505222247,
+    "profit_per_unit": 0.15706521739130436,
+    "listed_price": 0.41657760505222247,
+    "name": "Wisconsin | Milwaukee",
+    "sales_share": 0.00987473842062338,
+    "profit_share": 0.010187657634362524,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.9333889143027242
+   },
+   {
+    "records": 72,
+    "sales": 84090.0,
+    "units": 180600,
+    "profit": 28868.25,
+    "margin": 0.3433018194791295,
+    "sales_per_unit": 0.4656146179401993,
+    "profit_per_unit": 0.15984634551495017,
+    "listed_price": 0.4656146179401993,
+    "name": "Kansas | Wichita",
+    "sales_share": 0.009683294991868692,
+    "profit_share": 0.009096281842707419,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.9430722092945929
+   },
+   {
+    "records": 72,
+    "sales": 78595.0,
+    "units": 169600,
+    "profit": 28667.0,
+    "margin": 0.36474330428144286,
+    "sales_per_unit": 0.4634139150943396,
+    "profit_per_unit": 0.16902712264150943,
+    "listed_price": 0.4634139150943396,
+    "name": "Connecticut | Hartford",
+    "sales_share": 0.009050524079984777,
+    "profit_share": 0.009032868690859112,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.9521227333745776
+   },
+   {
+    "records": 72,
+    "sales": 77285.0,
+    "units": 180600,
+    "profit": 26580.75,
+    "margin": 0.34393155204761594,
+    "sales_per_unit": 0.42793466223698784,
+    "profit_per_unit": 0.14718023255813953,
+    "listed_price": 0.42793466223698784,
+    "name": "South Dakota | Sioux Falls",
+    "sales_share": 0.008899672415823187,
+    "profit_share": 0.00837549881238195,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.9610224057904009
+   },
+   {
+    "records": 72,
+    "sales": 72667.5,
+    "units": 183100,
+    "profit": 25784.625,
+    "margin": 0.3548302198369285,
+    "sales_per_unit": 0.3968732932823594,
+    "profit_per_unit": 0.14082263790278537,
+    "listed_price": 0.3968732932823594,
+    "name": "Iowa | Des Moines",
+    "sales_share": 0.008367949088139115,
+    "profit_share": 0.008124642685598184,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.96939035487854
+   },
+   {
+    "records": 72,
+    "sales": 72380.0,
+    "units": 184100,
+    "profit": 25662.125,
+    "margin": 0.3545471815418624,
+    "sales_per_unit": 0.3931558935361217,
+    "profit_per_unit": 0.13939231395980445,
+    "listed_price": 0.3931558935361217,
+    "name": "North Dakota | Fargo",
+    "sales_share": 0.008334842329783041,
+    "profit_share": 0.008086043375777476,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.977725197208323
+   },
+   {
+    "records": 72,
+    "sales": 71145.0,
+    "units": 154600,
+    "profit": 25036.125,
+    "margin": 0.35190280413240566,
+    "sales_per_unit": 0.4601875808538163,
+    "profit_per_unit": 0.1619413001293661,
+    "listed_price": 0.4601875808538163,
+    "name": "West Virginia | Charleston",
+    "sales_share": 0.008192627211279559,
+    "profit_share": 0.007888793025183489,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.9859178244196025
+   },
+   {
+    "records": 72,
+    "sales": 67910.0,
+    "units": 156850,
+    "profit": 23980.75,
+    "margin": 0.3531254601678692,
+    "sales_per_unit": 0.43296142811603444,
+    "profit_per_unit": 0.1528897035384125,
+    "listed_price": 0.43296142811603444,
+    "name": "Minnesota | Minneapolis",
+    "sales_share": 0.00782010420855991,
+    "profit_share": 0.0075562481549628375,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 0.9937379286281625
+   },
+   {
+    "records": 72,
+    "sales": 54380.0,
+    "units": 136350,
+    "profit": 21991.5,
+    "margin": 0.404404192717911,
+    "sales_per_unit": 0.39882654932159883,
+    "profit_per_unit": 0.1612871287128713,
+    "listed_price": 0.39882654932159883,
+    "name": "Nebraska | Omaha",
+    "sales_share": 0.006262071371837549,
+    "profit_share": 0.006929442627935541,
+    "locations": 1,
+    "retailers": [
+     "Sodapop"
+    ],
+    "cum_share": 1.0
+   }
+  ]
+ },
+ "confounding": {
+  "BevCo": {
+   "regions": [
+    "South"
+   ],
+   "locations": 8,
+   "states": [
+    "Alabama",
+    "Arkansas",
+    "Louisiana",
+    "Mississippi",
+    "Oklahoma",
+    "Tennessee",
+    "Texas"
+   ]
+  },
+  "DreamCo": {
+   "regions": [
+    "Midwest",
+    "West"
+   ],
+   "locations": 2,
+   "states": [
+    "California",
+    "Montana"
+   ]
+  },
+  "FizzySip": {
+   "regions": [
+    "West"
+   ],
+   "locations": 12,
+   "states": [
+    "Alaska",
+    "Arizona",
+    "California",
+    "Colorado",
+    "Hawaii",
+    "Idaho",
+    "Nevada",
+    "New Mexico",
+    "Oregon",
+    "Utah",
+    "Washington",
+    "Wyoming"
+   ]
+  },
+  "Sodapop": {
+   "regions": [
+    "Midwest",
+    "Northeast",
+    "Southeast"
+   ],
+   "locations": 32,
+   "states": [
+    "Connecticut",
+    "Delaware",
+    "Florida",
+    "Georgia",
+    "Illinois",
+    "Indiana",
+    "Iowa",
+    "Kansas",
+    "Kentucky",
+    "Maine",
+    "Maryland",
+    "Massachusetts",
+    "Michigan",
+    "Minnesota",
+    "Missouri",
+    "Nebraska",
+    "New Hampshire",
+    "New Jersey",
+    "New York",
+    "North Carolina",
+    "North Dakota",
+    "Ohio",
+    "Pennsylvania",
+    "Rhode Island",
+    "South Carolina",
+    "South Dakota",
+    "Vermont",
+    "Virginia",
+    "West Virginia",
+    "Wisconsin"
+   ]
+  }
+ },
+ "region_retailers": {
+  "Midwest": [
+   "DreamCo",
+   "Sodapop"
+  ],
+  "Northeast": [
+   "Sodapop"
+  ],
+  "South": [
+   "BevCo"
+  ],
+  "Southeast": [
+   "Sodapop"
+  ],
+  "West": [
+   "DreamCo",
+   "FizzySip"
+  ]
+ },
+ "months": [
+  {
+   "records": 324,
+   "sales": 510750.0,
+   "units": 1347750,
+   "profit": 183334.375,
+   "margin": 0.35895129711209006,
+   "sales_per_unit": 0.3789649415692821,
+   "profit_per_unit": 0.13602995733630124,
+   "listed_price": 0.3789649415692821,
+   "name": "2021-01",
+   "sales_share": 0.05881487593170335,
+   "profit_share": 0.05776800278702772,
+   "locations": 54,
+   "retailers": [
+    "BevCo",
+    "DreamCo",
+    "FizzySip",
+    "Sodapop"
+   ],
+   "mom": null,
+   "margin_pp": null
+  },
+  {
+   "records": 324,
+   "sales": 484975.0,
+   "units": 1274250,
+   "profit": 174250.0,
+   "margin": 0.35929687097273055,
+   "sales_per_unit": 0.38059642927212084,
+   "profit_per_unit": 0.1367471061408672,
+   "listed_price": 0.38059642927212084,
+   "name": "2021-02",
+   "sales_share": 0.05584678307386751,
+   "profit_share": 0.054905548867415506,
+   "locations": 54,
+   "retailers": [
+    "BevCo",
+    "DreamCo",
+    "FizzySip",
+    "Sodapop"
+   ],
+   "mom": -0.05046500244738128,
+   "margin_pp": 0.03455738606404912
+  },
+  {
+   "records": 324,
+   "sales": 483530.0,
+   "units": 1204250,
+   "profit": 174392.0,
+   "margin": 0.36066428143031454,
+   "sales_per_unit": 0.40151961801951425,
+   "profit_per_unit": 0.14481378451318247,
+   "listed_price": 0.40151961801951425,
+   "name": "2021-03",
+   "sales_share": 0.05568038562752133,
+   "profit_share": 0.05495029255716686,
+   "locations": 54,
+   "retailers": [
+    "BevCo",
+    "DreamCo",
+    "FizzySip",
+    "Sodapop"
+   ],
+   "mom": -0.0029795350275787502,
+   "margin_pp": 0.1367410457583984
+  },
+  {
+   "records": 324,
+   "sales": 494887.5,
+   "units": 1175750,
+   "profit": 177385.0,
+   "margin": 0.3584349978530474,
+   "sales_per_unit": 0.4209121837125239,
+   "profit_per_unit": 0.15086965766532,
+   "listed_price": 0.4209121837125239,
+   "name": "2021-04",
+   "sales_share": 0.056988246525013886,
+   "profit_share": 0.055893376102418936,
+   "locations": 54,
+   "retailers": [
+    "BevCo",
+    "DreamCo",
+    "FizzySip",
+    "Sodapop"
+   ],
+   "mom": 0.023488718383554374,
+   "margin_pp": -0.22292835772671493
+  },
+  {
+   "records": 324,
+   "sales": 673572.5,
+   "units": 1355000,
+   "profit": 248324.625,
+   "margin": 0.3686679978769917,
+   "sales_per_unit": 0.4971014760147601,
+   "profit_per_unit": 0.18326540590405904,
+   "listed_price": 0.4971014760147601,
+   "name": "2021-05",
+   "sales_share": 0.07756452867059668,
+   "profit_share": 0.0782461970325402,
+   "locations": 54,
+   "retailers": [
+    "BevCo",
+    "DreamCo",
+    "FizzySip",
+    "Sodapop"
+   ],
+   "mom": 0.36106185749286457,
+   "margin_pp": 1.0233000023944339
+  },
+  {
+   "records": 324,
+   "sales": 903837.5,
+   "units": 1624750,
+   "profit": 332843.75,
+   "margin": 0.36825618543156263,
+   "sales_per_unit": 0.5562932758885982,
+   "profit_per_unit": 0.20485843975996307,
+   "listed_price": 0.5562932758885982,
+   "name": "2021-06",
+   "sales_share": 0.1040804511501144,
+   "profit_share": 0.10487786961743949,
+   "locations": 54,
+   "retailers": [
+    "BevCo",
+    "DreamCo",
+    "FizzySip",
+    "Sodapop"
+   ],
+   "mom": 0.3418562960928482,
+   "margin_pp": -0.04118124454290939
+  },
+  {
+   "records": 324,
+   "sales": 1041437.5,
+   "units": 1762500,
+   "profit": 384724.375,
+   "margin": 0.3694166716677669,
+   "sales_per_unit": 0.590886524822695,
+   "profit_per_unit": 0.21828333333333333,
+   "listed_price": 0.590886524822695,
+   "name": "2021-07",
+   "sales_share": 0.1199256335841866,
+   "profit_share": 0.12122526813227195,
+   "locations": 54,
+   "retailers": [
+    "BevCo",
+    "DreamCo",
+    "FizzySip",
+    "Sodapop"
+   ],
+   "mom": 0.1522397554870205,
+   "margin_pp": 0.11604862362042945
+  },
+  {
+   "records": 324,
+   "sales": 945275.0,
+   "units": 1654000,
+   "profit": 349565.625,
+   "margin": 0.3698030996270926,
+   "sales_per_unit": 0.5715084643288997,
+   "profit_per_unit": 0.2113456015719468,
+   "listed_price": 0.5715084643288997,
+   "name": "2021-08",
+   "sales_share": 0.10885214262621808,
+   "profit_share": 0.11014687234322033,
+   "locations": 54,
+   "retailers": [
+    "BevCo",
+    "DreamCo",
+    "FizzySip",
+    "Sodapop"
+   ],
+   "mom": -0.0923363139890776,
+   "margin_pp": 0.038642795932569696
+  },
+  {
+   "records": 324,
+   "sales": 681000.0,
+   "units": 1377250,
+   "profit": 248413.75000000003,
+   "margin": 0.3647779001468429,
+   "sales_per_unit": 0.49446360500998365,
+   "profit_per_unit": 0.1803693955345798,
+   "listed_price": 0.49446360500998365,
+   "name": "2021-09",
+   "sales_share": 0.07841983457560446,
+   "profit_share": 0.07827427999978732,
+   "locations": 54,
+   "retailers": [
+    "BevCo",
+    "DreamCo",
+    "FizzySip",
+    "Sodapop"
+   ],
+   "mom": -0.27957472693131624,
+   "margin_pp": -0.5025199480249709
+  },
+  {
+   "records": 324,
+   "sales": 623375.0,
+   "units": 1253250,
+   "profit": 226435.00000000003,
+   "margin": 0.36324042510527377,
+   "sales_per_unit": 0.4974067424695791,
+   "profit_per_unit": 0.18067823658487933,
+   "listed_price": 0.4974067424695791,
+   "name": "2021-10",
+   "sales_share": 0.07178408866162618,
+   "profit_share": 0.0713488548510372,
+   "locations": 54,
+   "retailers": [
+    "BevCo",
+    "DreamCo",
+    "FizzySip",
+    "Sodapop"
+   ],
+   "mom": -0.08461820851688695,
+   "margin_pp": -0.15374750415691474
+  },
+  {
+   "records": 324,
+   "sales": 795612.5000000001,
+   "units": 1442500,
+   "profit": 290547.75,
+   "margin": 0.36518751276532224,
+   "sales_per_unit": 0.5515511265164645,
+   "profit_per_unit": 0.20141958405545926,
+   "listed_price": 0.5515511265164645,
+   "name": "2021-11",
+   "sales_share": 0.09161791576546713,
+   "profit_share": 0.09155055199967073,
+   "locations": 54,
+   "retailers": [
+    "BevCo",
+    "DreamCo",
+    "FizzySip",
+    "Sodapop"
+   ],
+   "mom": 0.27629837577702054,
+   "margin_pp": 0.19470876600484743
+  },
+  {
+   "records": 324,
+   "sales": 1045775.0000000001,
+   "units": 1677000,
+   "profit": 383415.625,
+   "margin": 0.3666329994501685,
+   "sales_per_unit": 0.6235986881335719,
+   "profit_per_unit": 0.22863185748360168,
+   "listed_price": 0.6235986881335719,
+   "name": "2021-12",
+   "sales_share": 0.12042511380808042,
+   "profit_share": 0.12081288571000377,
+   "locations": 54,
+   "retailers": [
+    "BevCo",
+    "DreamCo",
+    "FizzySip",
+    "Sodapop"
+   ],
+   "mom": 0.3144275636695,
+   "margin_pp": 0.1445486684846231
+  }
+ ],
+ "month_extremes": {
+  "high": "2021-12",
+  "high_sales": 1045775.0000000001,
+  "low": "2021-03",
+  "low_sales": 483530.0,
+  "diff": 562245.0000000001,
+  "rel": 1.1627923810311667,
+  "high_units_month": "2021-07",
+  "best_margin_month": "2021-08",
+  "worst_margin_month": "2021-04",
+  "margin_range_pp": 1.1368101774045236
+ },
+ "brand_region": {
+  "Coca-Cola": {
+   "West": {
+    "records": 156,
+    "sales": 549700.0,
+    "units": 988750,
+    "profit": 193221.875,
+    "margin": 0.3515042295797708,
+    "sales_per_unit": 0.5559544879898862,
+    "profit_per_unit": 0.1954203539823009,
+    "listed_price": 0.5559544879898862
+   },
+   "Northeast": {
+    "records": 156,
+    "sales": 498157.5,
+    "units": 922450,
+    "profit": 207486.625,
+    "margin": 0.4165080822832136,
+    "sales_per_unit": 0.5400374004011057,
+    "profit_per_unit": 0.22492994200227653,
+    "listed_price": 0.5400374004011057
+   },
+   "Southeast": {
+    "records": 84,
+    "sales": 375482.5,
+    "units": 747050,
+    "profit": 164415.375,
+    "margin": 0.43787759749122795,
+    "sales_per_unit": 0.5026203065390537,
+    "profit_per_unit": 0.22008617227762534,
+    "listed_price": 0.5026203065390537
+   },
+   "South": {
+    "records": 96,
+    "sales": 248022.5,
+    "units": 663200,
+    "profit": 97358.625,
+    "margin": 0.39253948734489813,
+    "sales_per_unit": 0.37397843787696017,
+    "profit_per_unit": 0.14680130428226779,
+    "listed_price": 0.37397843787696017
+   },
+   "Midwest": {
+    "records": 156,
+    "sales": 344527.5,
+    "units": 811800,
+    "profit": 130714.75,
+    "margin": 0.3794029504176009,
+    "sales_per_unit": 0.42439948263118993,
+    "profit_per_unit": 0.16101841586597684,
+    "listed_price": 0.42439948263118993
+   }
+  },
+  "Dasani Water": {
+   "West": {
+    "records": 156,
+    "sales": 537562.5,
+    "units": 759750,
+    "profit": 143115.0,
+    "margin": 0.2662295081967213,
+    "sales_per_unit": 0.7075518262586377,
+    "profit_per_unit": 0.18837117472852913,
+    "listed_price": 0.7075518262586377
+   },
+   "Northeast": {
+    "records": 156,
+    "sales": 357712.5,
+    "units": 610250,
+    "profit": 114853.125,
+    "margin": 0.3210766327707307,
+    "sales_per_unit": 0.5861736993035641,
+    "profit_per_unit": 0.18820667759115117,
+    "listed_price": 0.5861736993035641
+   },
+   "Southeast": {
+    "records": 84,
+    "sales": 319662.5,
+    "units": 576250,
+    "profit": 161710.625,
+    "margin": 0.5058792476439995,
+    "sales_per_unit": 0.5547288503253797,
+    "profit_per_unit": 0.2806258134490239,
+    "listed_price": 0.5547288503253797
+   },
+   "South": {
+    "records": 96,
+    "sales": 267837.5,
+    "units": 551750,
+    "profit": 135591.875,
+    "margin": 0.5062467914313716,
+    "sales_per_unit": 0.48543271409152694,
+    "profit_per_unit": 0.2457487539646579,
+    "listed_price": 0.48543271409152694
+   },
+   "Midwest": {
+    "records": 156,
+    "sales": 243062.5,
+    "units": 502250,
+    "profit": 100429.375,
+    "margin": 0.4131833376189252,
+    "sales_per_unit": 0.483947237431558,
+    "profit_per_unit": 0.19995893479342958,
+    "listed_price": 0.483947237431558
+   }
+  },
+  "Diet Coke": {
+   "West": {
+    "records": 156,
+    "sales": 541150.0,
+    "units": 880500,
+    "profit": 158838.75000000003,
+    "margin": 0.2935207428624227,
+    "sales_per_unit": 0.6145939806927881,
+    "profit_per_unit": 0.18039608177172065,
+    "listed_price": 0.6145939806927881
+   },
+   "Northeast": {
+    "records": 156,
+    "sales": 277050.0,
+    "units": 548500,
+    "profit": 95560.0,
+    "margin": 0.3449196895867172,
+    "sales_per_unit": 0.5051048313582498,
+    "profit_per_unit": 0.17422060164083866,
+    "listed_price": 0.5051048313582498
+   },
+   "Southeast": {
+    "records": 84,
+    "sales": 253100.00000000003,
+    "units": 541250,
+    "profit": 90060.0,
+    "margin": 0.3558277360726985,
+    "sales_per_unit": 0.46762124711316405,
+    "profit_per_unit": 0.16639260969976905,
+    "listed_price": 0.46762124711316405
+   },
+   "South": {
+    "records": 96,
+    "sales": 231450.0,
+    "units": 573000,
+    "profit": 89121.25,
+    "margin": 0.38505616763879885,
+    "sales_per_unit": 0.4039267015706806,
+    "profit_per_unit": 0.1555344677137871,
+    "listed_price": 0.4039267015706806
+   },
+   "Midwest": {
+    "records": 156,
+    "sales": 178675.00000000003,
+    "units": 458250,
+    "profit": 60737.50000000001,
+    "margin": 0.33993283895340703,
+    "sales_per_unit": 0.38990725586470276,
+    "profit_per_unit": 0.13254228041462085,
+    "listed_price": 0.38990725586470276
+   }
+  },
+  "Fanta": {
+   "West": {
+    "records": 156,
+    "sales": 375050.0,
+    "units": 641250,
+    "profit": 125192.5,
+    "margin": 0.3338021597120384,
+    "sales_per_unit": 0.5848732943469785,
+    "profit_per_unit": 0.19523196881091617,
+    "listed_price": 0.5848732943469785
+   },
+   "Northeast": {
+    "records": 156,
+    "sales": 188862.5,
+    "units": 398000,
+    "profit": 63435.0,
+    "margin": 0.33587927725196903,
+    "sales_per_unit": 0.4745288944723618,
+    "profit_per_unit": 0.15938442211055276,
+    "listed_price": 0.4745288944723618
+   },
+   "Southeast": {
+    "records": 84,
+    "sales": 198750.0,
+    "units": 458000,
+    "profit": 67703.125,
+    "margin": 0.34064465408805034,
+    "sales_per_unit": 0.4339519650655022,
+    "profit_per_unit": 0.14782341703056767,
+    "listed_price": 0.4339519650655022
+   },
+   "South": {
+    "records": 96,
+    "sales": 165750.0,
+    "units": 396750,
+    "profit": 78259.375,
+    "margin": 0.47215309200603317,
+    "sales_per_unit": 0.41776937618147447,
+    "profit_per_unit": 0.19725110270951482,
+    "listed_price": 0.41776937618147447
+   },
+   "Midwest": {
+    "records": 156,
+    "sales": 103237.5,
+    "units": 297250,
+    "profit": 38235.625,
+    "margin": 0.3703656617023853,
+    "sales_per_unit": 0.34730866274179983,
+    "profit_per_unit": 0.12863120269133727,
+    "listed_price": 0.34730866274179983
+   }
+  },
+  "Powerade": {
+   "West": {
+    "records": 156,
+    "sales": 369762.5,
+    "units": 556000,
+    "profit": 143398.75,
+    "margin": 0.3878131232885974,
+    "sales_per_unit": 0.6650404676258993,
+    "profit_per_unit": 0.25791142086330937,
+    "listed_price": 0.6650404676258993
+   },
+   "Northeast": {
+    "records": 156,
+    "sales": 242875.0,
+    "units": 416000,
+    "profit": 72048.75,
+    "margin": 0.29664951106536286,
+    "sales_per_unit": 0.5838341346153846,
+    "profit_per_unit": 0.17319411057692308,
+    "listed_price": 0.5838341346153846
+   },
+   "Southeast": {
+    "records": 84,
+    "sales": 262775.0,
+    "units": 472000,
+    "profit": 93430.625,
+    "margin": 0.3555537056417087,
+    "sales_per_unit": 0.5567266949152543,
+    "profit_per_unit": 0.19794623940677966,
+    "listed_price": 0.5567266949152543
+   },
+   "South": {
+    "records": 96,
+    "sales": 171050.0,
+    "units": 363250,
+    "profit": 59208.75,
+    "margin": 0.3461487869044139,
+    "sales_per_unit": 0.47088781830695114,
+    "profit_per_unit": 0.1629972470750172,
+    "listed_price": 0.47088781830695114
+   },
+   "Midwest": {
+    "records": 156,
+    "sales": 147175.0,
+    "units": 313500,
+    "profit": 58985.0,
+    "margin": 0.40078138270766095,
+    "sales_per_unit": 0.4694577352472089,
+    "profit_per_unit": 0.1881499202551834,
+    "listed_price": 0.4694577352472089
+   }
+  },
+  "Sprite": {
+   "West": {
+    "records": 156,
+    "sales": 461875.0,
+    "units": 775250,
+    "profit": 159247.5,
+    "margin": 0.3447848443843031,
+    "sales_per_unit": 0.5957755562721703,
+    "profit_per_unit": 0.20541438245727184,
+    "listed_price": 0.5957755562721703
+   },
+   "Northeast": {
+    "records": 156,
+    "sales": 223690.0,
+    "units": 499350,
+    "profit": 76162.5,
+    "margin": 0.3404823639858733,
+    "sales_per_unit": 0.4479623510563733,
+    "profit_per_unit": 0.15252328026434364,
+    "listed_price": 0.4479623510563733
+   },
+   "Southeast": {
+    "records": 84,
+    "sales": 209165.00000000003,
+    "units": 509900,
+    "profit": 64234.12500000001,
+    "margin": 0.307097865321636,
+    "sales_per_unit": 0.41020788389880375,
+    "profit_per_unit": 0.12597396548342812,
+    "listed_price": 0.41020788389880375
+   },
+   "South": {
+    "records": 96,
+    "sales": 207425.0,
+    "units": 516850,
+    "profit": 82506.25,
+    "margin": 0.3977642521393275,
+    "sales_per_unit": 0.4013253361710361,
+    "profit_per_unit": 0.15963287220663636,
+    "listed_price": 0.4013253361710361
+   },
+   "Midwest": {
+    "records": 156,
+    "sales": 133432.5,
+    "units": 399900,
+    "profit": 48369.25,
+    "margin": 0.36249976579918686,
+    "sales_per_unit": 0.3336646661665416,
+    "profit_per_unit": 0.12095336334083522,
+    "listed_price": 0.3336646661665416
+   }
+  }
+ },
+ "retailer_region": {
+  "BevCo": {
+   "South": {
+    "records": 576,
+    "sales": 1291535.0,
+    "units": 3064800,
+    "profit": 542046.125,
+    "margin": 0.4196913943485852,
+    "sales_per_unit": 0.4214092273557818,
+    "profit_per_unit": 0.17686182622030802,
+    "listed_price": 0.4214092273557818
+   }
+  },
+  "DreamCo": {
+   "Midwest": {
+    "records": 72,
+    "sales": 153762.5,
+    "units": 328000,
+    "profit": 60635.0,
+    "margin": 0.3943419234208601,
+    "sales_per_unit": 0.4687881097560976,
+    "profit_per_unit": 0.1848628048780488,
+    "listed_price": 0.4687881097560976
+   },
+   "West": {
+    "records": 72,
+    "sales": 250650.0,
+    "units": 492500,
+    "profit": 87255.0,
+    "margin": 0.3481149012567325,
+    "sales_per_unit": 0.5089340101522842,
+    "profit_per_unit": 0.17716751269035533,
+    "listed_price": 0.5089340101522842
+   }
+  },
+  "FizzySip": {
+   "West": {
+    "records": 864,
+    "sales": 2584450.0,
+    "units": 4109000,
+    "profit": 835759.375,
+    "margin": 0.32337997446265165,
+    "sales_per_unit": 0.6289729861280117,
+    "profit_per_unit": 0.20339726819177414,
+    "listed_price": 0.6289729861280117
+   }
+  },
+  "Sodapop": {
+   "Midwest": {
+    "records": 864,
+    "sales": 996347.5,
+    "units": 2454950,
+    "profit": 376836.5,
+    "margin": 0.37821794102961065,
+    "sales_per_unit": 0.4058524613535917,
+    "profit_per_unit": 0.1535006822949551,
+    "listed_price": 0.4058524613535917
+   },
+   "Northeast": {
+    "records": 936,
+    "sales": 1788347.5,
+    "units": 3394550,
+    "profit": 629546.0,
+    "margin": 0.35202666148497425,
+    "sales_per_unit": 0.5268290347763327,
+    "profit_per_unit": 0.1854578662856638,
+    "listed_price": 0.5268290347763327
+   },
+   "Southeast": {
+    "records": 504,
+    "sales": 1618935.0,
+    "units": 3304450,
+    "profit": 641553.875,
+    "margin": 0.39628142884056494,
+    "sales_per_unit": 0.4899257062446095,
+    "profit_per_unit": 0.19414845889633675,
+    "listed_price": 0.4899257062446095
+   }
+  }
+ },
+ "region_month": {
+  "Midwest": {
+   "01": 80087.5,
+   "02": 73762.5,
+   "03": 68072.5,
+   "04": 65762.5,
+   "05": 97392.5,
+   "06": 101637.50000000001,
+   "07": 131387.5,
+   "08": 120312.5,
+   "09": 81087.5,
+   "10": 82800.0,
+   "11": 102420.0,
+   "12": 145387.5
+  },
+  "Northeast": {
+   "01": 115737.5,
+   "02": 112650.0,
+   "03": 104985.0,
+   "04": 101175.0,
+   "05": 154247.5,
+   "06": 176437.5,
+   "07": 187900.0,
+   "08": 173362.5,
+   "09": 142037.5,
+   "10": 143887.5,
+   "11": 173315.0,
+   "12": 202612.5
+  },
+  "South": {
+   "01": 70662.5,
+   "02": 66475.0,
+   "03": 65845.0,
+   "04": 60662.5,
+   "05": 89965.0,
+   "06": 134537.5,
+   "07": 157912.5,
+   "08": 152275.0,
+   "09": 117225.0,
+   "10": 81687.50000000001,
+   "11": 118800.00000000001,
+   "12": 175487.5
+  },
+  "Southeast": {
+   "01": 104750.0,
+   "02": 99500.0,
+   "03": 86102.5,
+   "04": 88525.0,
+   "05": 133555.0,
+   "06": 162687.5,
+   "07": 191425.0,
+   "08": 170700.0,
+   "09": 124537.50000000001,
+   "10": 119525.00000000001,
+   "11": 146152.50000000003,
+   "12": 191475.00000000003
+  },
+  "West": {
+   "01": 139512.5,
+   "02": 132587.5,
+   "03": 158525.0,
+   "04": 178762.5,
+   "05": 198412.5,
+   "06": 328537.5,
+   "07": 372812.5,
+   "08": 328625.0,
+   "09": 216112.50000000003,
+   "10": 195475.00000000003,
+   "11": 254925.00000000003,
+   "12": 330812.50000000006
+  }
+ },
+ "concentration": {
+  "top5": 0.18311520777657603,
+  "top10": 0.3236741247076889,
+  "top20": 0.5556609533997906
+ },
+ "materiality": {
+  "threshold": 100000,
+  "count": 37,
+  "total": 54,
+  "sales_share": 0.8373502386997278
+ },
+ "high_sales_low_margin": [
+  {
+   "name": "New York | New York",
+   "sales": 391767.5,
+   "margin": 0.3471025544487483,
+   "profit": 135983.5,
+   "units": 706600,
+   "retailers": [
+    "Sodapop"
+   ]
+  },
+  {
+   "name": "California | San Francisco",
+   "sales": 331750.0,
+   "margin": 0.2913055764883195,
+   "profit": 96640.625,
+   "units": 544750,
+   "retailers": [
+    "FizzySip"
+   ]
+  },
+  {
+   "name": "Hawaii | Honolulu",
+   "sales": 255425.00000000003,
+   "margin": 0.30518009200352353,
+   "profit": 77950.625,
+   "units": 353500,
+   "retailers": [
+    "FizzySip"
+   ]
+  },
+  {
+   "name": "California | Los Angeles",
+   "sales": 250650.0,
+   "margin": 0.3481149012567325,
+   "profit": 87255.0,
+   "units": 492500,
+   "retailers": [
+    "DreamCo"
+   ]
+  },
+  {
+   "name": "Washington | Seattle",
+   "sales": 250237.50000000003,
+   "margin": 0.2575178580348669,
+   "profit": 64440.62500000001,
+   "units": 348750,
+   "retailers": [
+    "FizzySip"
+   ]
+  },
+  {
+   "name": "Alaska | Anchorage",
+   "sales": 213437.50000000003,
+   "margin": 0.2555285505124451,
+   "profit": 54539.37500000001,
+   "units": 312250,
+   "retailers": [
+    "FizzySip"
+   ]
+  },
+  {
+   "name": "Wyoming | Cheyenne",
+   "sales": 199937.50000000003,
+   "margin": 0.3469052829009065,
+   "profit": 69359.375,
+   "units": 310750,
+   "retailers": [
+    "FizzySip"
+   ]
+  },
+  {
+   "name": "Utah | Salt Lake City",
+   "sales": 199937.50000000003,
+   "margin": 0.3469052829009065,
+   "profit": 69359.375,
+   "units": 310750,
+   "retailers": [
+    "FizzySip"
+   ]
+  },
+  {
+   "name": "Nevada | Las Vegas",
+   "sales": 199837.5,
+   "margin": 0.3358103459060487,
+   "profit": 67107.5,
+   "units": 324000,
+   "retailers": [
+    "FizzySip"
+   ]
+  },
+  {
+   "name": "Arizona | Phoenix",
+   "sales": 192137.50000000003,
+   "margin": 0.3339080085876,
+   "profit": 64156.25000000001,
+   "units": 331500,
+   "retailers": [
+    "FizzySip"
+   ]
+  },
+  {
+   "name": "New York | Albany",
+   "sales": 190907.5,
+   "margin": 0.3514738813299635,
+   "profit": 67099.0,
+   "units": 418600,
+   "retailers": [
+    "Sodapop"
+   ]
+  },
+  {
+   "name": "New Mexico | Albuquerque",
+   "sales": 166075.0,
+   "margin": 0.35626599427969297,
+   "profit": 59166.87500000001,
+   "units": 313500,
+   "retailers": [
+    "FizzySip"
+   ]
+  },
+  {
+   "name": "Vermont | Burlington",
+   "sales": 156035.0,
+   "margin": 0.353244464382991,
+   "profit": 55118.5,
+   "units": 256850,
+   "retailers": [
+    "Sodapop"
+   ]
+  },
+  {
+   "name": "New Hampshire | Manchester",
+   "sales": 148470.0,
+   "margin": 0.30408247457398807,
+   "profit": 45147.12500000001,
+   "units": 238850,
+   "retailers": [
+    "Sodapop"
+   ]
+  },
+  {
+   "name": "Idaho | Boise",
+   "sales": 146650.0,
+   "margin": 0.3342524718718036,
+   "profit": 49018.125,
+   "units": 288250,
+   "retailers": [
+    "FizzySip"
+   ]
+  },
+  {
+   "name": "Maryland | Baltimore",
+   "sales": 122875.0,
+   "margin": 0.36474974567650054,
+   "profit": 44818.625,
+   "units": 241600,
+   "retailers": [
+    "Sodapop"
+   ]
+  },
+  {
+   "name": "New Jersey | Newark",
+   "sales": 113925.0,
+   "margin": 0.3551590958964231,
+   "profit": 40461.5,
+   "units": 223600,
+   "retailers": [
+    "Sodapop"
+   ]
+  },
+  {
+   "name": "Rhode Island | Providence",
+   "sales": 101462.5,
+   "margin": 0.2829567574226931,
+   "profit": 28709.5,
+   "units": 198850,
+   "retailers": [
+    "Sodapop"
+   ]
+  }
+ ],
+ "low_sales_high_margin": [
+  {
+   "name": "Pennsylvania | Philadelphia",
+   "sales": 95690.0,
+   "margin": 0.4034630055387188,
+   "profit": 38607.375
+  },
+  {
+   "name": "Michigan | Detroit",
+   "sales": 95262.5,
+   "margin": 0.40028211520797796,
+   "profit": 38131.875
+  },
+  {
+   "name": "Ohio | Columbus",
+   "sales": 95142.5,
+   "margin": 0.38617862679664716,
+   "profit": 36742.0
+  },
+  {
+   "name": "Illinois | Chicago",
+   "sales": 93282.5,
+   "margin": 0.4013400155441803,
+   "profit": 37438.0
+  },
+  {
+   "name": "Missouri | St. Louis",
+   "sales": 91370.00000000001,
+   "margin": 0.4005116559045638,
+   "profit": 36594.75
+  },
+  {
+   "name": "Wisconsin | Milwaukee",
+   "sales": 85752.5,
+   "margin": 0.3770371126206233,
+   "profit": 32331.875
+  },
+  {
+   "name": "Nebraska | Omaha",
+   "sales": 54380.0,
+   "margin": 0.404404192717911,
+   "profit": 21991.5
+  }
+ ],
+ "quality": {
+  "sales_identity_breaks": 0,
+  "margin_identity_breaks": 0,
+  "negatives": 0,
+  "zero_sales": [
+   {
+    "location": "Nebraska | Omaha",
+    "brand": "Fanta",
+    "date": "2021-03-10",
+    "retailer": "Sodapop",
+    "supplied_margin": 0.4
+   },
+   {
+    "location": "Nebraska | Omaha",
+    "brand": "Fanta",
+    "date": "2021-04-11",
+    "retailer": "Sodapop",
+    "supplied_margin": 0.4
+   }
+  ],
+  "exact_dupes": 0,
+  "key_dupes": 0,
+  "price_min": 0.09999999999999996,
+  "price_max": 1.1,
+  "margin_min": 0.1,
+  "margin_max": 0.6500000000000001,
+  "full_months": true,
+  "records_per_month": [
+   324
+  ]
+ },
+ "row_margin_simple_avg": 0.36310442386831276,
+ "correlation": {
+  "pooled": 0.2474596791358975,
+  "by_brand": {
+   "Coca-Cola": 0.20145739581944436,
+   "Dasani Water": 0.2472374691473952,
+   "Diet Coke": 0.3529361567856284,
+   "Fanta": 0.38227108568610096,
+   "Powerade": 0.27023566501575347,
+   "Sprite": 0.3361195824818862
+  },
+  "n": 3888,
+  "brand_n": 648
+ },
+ "price_bands": [
+  {
+   "records": 374,
+   "sales": 331522.50000000006,
+   "units": 1398300,
+   "profit": 125473.25000000001,
+   "margin": 0.37847581989156087,
+   "sales_per_unit": 0.23708968032611033,
+   "profit_per_unit": 0.08973271114925267,
+   "listed_price": 0.23708968032611033,
+   "label": "<= $0.30"
+  },
+  {
+   "records": 1203,
+   "sales": 1939917.5,
+   "units": 4796900,
+   "profit": 734771.5,
+   "margin": 0.3787643031211379,
+   "sales_per_unit": 0.40441066105192935,
+   "profit_per_unit": 0.1531763222080927,
+   "listed_price": 0.40441066105192935,
+   "label": "$0.31-$0.45"
+  },
+  {
+   "records": 1255,
+   "sales": 3122357.5,
+   "units": 5797500,
+   "profit": 1162245.625,
+   "margin": 0.3722333605296639,
+   "sales_per_unit": 0.5385696420871066,
+   "profit_per_unit": 0.20047358775334195,
+   "listed_price": 0.5385696420871066,
+   "label": "$0.46-$0.60"
+  },
+  {
+   "records": 460,
+   "sales": 1591145.0,
+   "units": 2366800,
+   "profit": 586387.125,
+   "margin": 0.3685315448937715,
+   "sales_per_unit": 0.6722769139766773,
+   "profit_per_unit": 0.247755249704242,
+   "listed_price": 0.6722769139766773,
+   "label": "$0.61-$0.75"
+  },
+  {
+   "records": 103,
+   "sales": 503575.00000000006,
+   "units": 605500,
+   "profit": 149830.0,
+   "margin": 0.2975326416124708,
+   "sales_per_unit": 0.8316680429397193,
+   "profit_per_unit": 0.2474483897605285,
+   "listed_price": 0.8316680429397193,
+   "label": "$0.76-$0.90"
+  },
+  {
+   "records": 26,
+   "sales": 168812.5,
+   "units": 169250,
+   "profit": 56345.625,
+   "margin": 0.3337763791188449,
+   "sales_per_unit": 0.9974150664697193,
+   "profit_per_unit": 0.3329135893648449,
+   "listed_price": 0.9974150664697193,
+   "label": "> $0.90"
+  }
+ ],
+ "brand_month": {
+  "Coca-Cola": {
+   "01": 110012.5,
+   "02": 121250.0,
+   "03": 123667.5,
+   "04": 128250.0,
+   "05": 166372.5,
+   "06": 193825.0,
+   "07": 237587.5,
+   "08": 232600.0,
+   "09": 170737.5,
+   "10": 146575.0,
+   "11": 150787.5,
+   "12": 234225.0
+  },
+  "Dasani Water": {
+   "01": 93662.5,
+   "02": 84950.0,
+   "03": 82525.0,
+   "04": 99987.5,
+   "05": 150300.0,
+   "06": 213387.5,
+   "07": 212825.0,
+   "08": 161062.5,
+   "09": 119562.50000000001,
+   "10": 125087.5,
+   "11": 181900.0,
+   "12": 200587.5
+  },
+  "Diet Coke": {
+   "01": 94112.5,
+   "02": 80150.0,
+   "03": 85575.0,
+   "04": 79112.5,
+   "05": 103350.0,
+   "06": 140500.0,
+   "07": 174187.50000000003,
+   "08": 179900.00000000003,
+   "09": 131187.50000000003,
+   "10": 113700.00000000001,
+   "11": 118612.50000000001,
+   "12": 181037.50000000003
+  },
+  "Fanta": {
+   "01": 58700.0,
+   "02": 53875.0,
+   "03": 55062.5,
+   "04": 53962.5,
+   "05": 76162.5,
+   "06": 110500.0,
+   "07": 119837.5,
+   "08": 107462.5,
+   "09": 76762.5,
+   "10": 72837.50000000001,
+   "11": 111125.00000000001,
+   "12": 135362.5
+  },
+  "Powerade": {
+   "01": 77350.0,
+   "02": 73137.5,
+   "03": 63075.0,
+   "04": 64225.0,
+   "05": 85087.5,
+   "06": 116975.0,
+   "07": 146750.0,
+   "08": 119500.0,
+   "09": 91400.0,
+   "10": 83025.0,
+   "11": 127850.00000000001,
+   "12": 145262.5
+  },
+  "Sprite": {
+   "01": 76912.5,
+   "02": 71612.5,
+   "03": 73625.0,
+   "04": 69350.0,
+   "05": 92300.0,
+   "06": 128650.0,
+   "07": 150250.0,
+   "08": 144750.0,
+   "09": 91350.0,
+   "10": 82150.00000000001,
+   "11": 105337.50000000001,
+   "12": 149300.00000000003
+  }
+ },
+ "coke_brand": {
+  "records": 648,
+  "sales": 2015890.0,
+  "units": 4133250,
+  "profit": 793197.25,
+  "margin": 0.39347248609795177,
+  "sales_per_unit": 0.48772515574910785,
+  "profit_per_unit": 0.1919064295651122,
+  "listed_price": 0.48772515574910785,
+  "share_of_portfolio_sales": 0.23213768035626325,
+  "share_of_portfolio_profit": 0.24993360327905076
+ },
+ "decomp": {
+  "jan": "2021-01",
+  "dec": "2021-12",
+  "sales_growth": 1.0475281448849731,
+  "units_growth": 0.24429604897050639,
+  "price_growth": 0.6455313400529057,
+  "jan_rpu": 0.3789649415692821,
+  "dec_rpu": 0.6235986881335719,
+  "jan_units": 1347750,
+  "dec_units": 1677000
+ }
+}
