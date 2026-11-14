@@ -15,3 +15,6 @@ work/tmp/
 deliverables/*_base.xlsx
 __pycache__/
 *.pyc
+
+# Local scratch rebuild kept out of the submission
+work/_local_rebuild/
